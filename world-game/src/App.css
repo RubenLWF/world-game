@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+.flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.flag--img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.flag--input {
+    width: auto;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: large;
+    border: none;
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+    margin-right: 10px;
+}
+
+.flag--button {
+    height: 40px;
+    width: 40px;
+    font-size: large;
+    background-color: rgb(0, 117, 0);
+    border-radius: 50%;
+    border: none;
+    color: rgb(0, 139, 0);
+}
