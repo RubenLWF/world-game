@@ -6,6 +6,7 @@ import countries from '../assets/countries.json'
 import ReactCountryFlag from "react-country-flag";
 
 var i = 0
+var score = 0;
 
 Shuffle(countries);
 
@@ -33,6 +34,10 @@ export default function FlagComponent() {
             <div className="flag--controls">
                 <input className="flag--input" type="text"></input>
                 <button className="flag--button" onClick={() => nextFlag()}><FaArrowRight /></button>
+            </div>
+
+            <div className="flag--score">
+                <p>{score} / {i + 1} ({(100 / (i + 1)) * score}%)</p>
             </div>
         </div>
     )
