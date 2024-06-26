@@ -1,12 +1,17 @@
 body {
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(185, 185, 185);
 }
 
 .flag {
+    width: fit-content;
+    padding: 30px 30px 0 30px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 30px;
 }
 
 .flag--img {
@@ -14,35 +19,43 @@ body {
     margin-bottom: 10px;
 }
 
+.flag--controls {
+    width: 70%;
+}
+
 .flag--input {
-    width: auto;
+    width: 80%;
     height: 40px;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin-right: 10px;
     box-sizing: border-box;
     border-radius: 20px;
     font-size: large;
     border: none;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(197, 197, 197);
     text-align: center;
     margin-right: 10px;
 }
 
+input:focus::placeholder {
+    color: transparent;
+}
+
 .flag--input:hover {
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(206, 206, 206);
 }
 
 .flag--input:focus {
     outline: none;
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(206, 206, 206);
 }
 
 .flag--button {
     height: 40px;
-    width: 40px;
+    width: calc(20% - 10px);
     font-size: large;
     background-color: rgb(0, 117, 0);
-    border-radius: 50%;
+    border-radius: 20px;
     border: none;
     color: rgb(0, 139, 0);
 }
@@ -50,4 +63,8 @@ body {
 .flag--button:hover {
     background-color: rgb(0, 138, 0);
     color: rgb(0, 160, 0);
+}
+
+.flag--button-icon {
+    vertical-align: middle;
 }

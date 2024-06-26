@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 import { FaArrowRight } from 'react-icons/fa';
 
@@ -13,10 +13,30 @@ Shuffle(countries);
 export default function FlagComponent() {
 
     const [Country, setCountry] = useState({ alpha2: countries[i].alpha2, name: countries[i].name })
+    const inputRef = useRef();
 
-    function nextFlag() {
+    function NextFlag() {
         i += 1
         setCountry({ alpha2: countries[i].alpha2, name: countries[i].name })
+    }
+
+    function CheckAnswer() {
+        var answer = inputRef.current.value
+
+        if (answer.toUpperCase() === Country.name.toUpperCase()) {
+            inputRef.current.value = ''
+            score += 1
+            NextFlag()
+        }
+    }
+
+    function GetScore() {
+
+        if (score > 0) {
+            return (<p>{score} / {i} ({Math.round((100 / (i)) * score)}%)</p>)
+        }
+
+        return (<p>Your score will be displayed here...</p>)
     }
 
     return (
@@ -30,16 +50,14 @@ export default function FlagComponent() {
                     height: "30em"
                 }}
             />
-
             <div className="flag--controls">
-                <input className="flag--input" type="text"></input>
-                <button className="flag--button" onClick={() => nextFlag()}><FaArrowRight /></button>
+                <input className="flag--input" type="text" placeholder="Country name..." ref={inputRef} onChange={() => CheckAnswer()}></input>
+                <button className="flag--button" onClick={() => NextFlag()}>Skip <FaArrowRight className="flag--button-icon" /></button>
             </div>
-
             <div className="flag--score">
-                <p>{score} / {i + 1} ({(100 / (i + 1)) * score}%)</p>
+                <GetScore />
             </div>
-        </div>
+        </div >
     )
 }
 
