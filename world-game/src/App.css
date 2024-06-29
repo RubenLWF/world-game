@@ -55,10 +55,10 @@ input:focus::placeholder {
     height: 40px;
     width: calc(20% - 10px);
     font-size: large;
-    background-color: rgb(0, 117, 0);
+    background-color: rgb(0, 153, 0);
     border-radius: 20px;
     border: none;
-    color: rgb(0, 139, 0);
+    color: rgb(0, 202, 0);
 }
 
 .flag--button:hover {

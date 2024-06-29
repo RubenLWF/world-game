@@ -12,18 +12,17 @@ Shuffle(countries);
 
 export default function FlagComponent() {
 
-    const [Country, setCountry] = useState({ alpha2: countries[i].alpha2, name: countries[i].name })
+    const [Country, setCountry] = useState({ alpha2: countries[i].alpha2, names: countries[i].names })
     const inputRef = useRef();
 
     function NextFlag() {
         i += 1
-        setCountry({ alpha2: countries[i].alpha2, name: countries[i].name })
+        setCountry({ alpha2: countries[i].alpha2, names: countries[i].names })
     }
 
     function CheckAnswer() {
         var answer = inputRef.current.value
-
-        if (answer.toUpperCase() === Country.name.toUpperCase()) {
+        if (Country.names.includes(answer.toUpperCase())) {
             inputRef.current.value = ''
             score += 1
             NextFlag()
@@ -32,7 +31,7 @@ export default function FlagComponent() {
 
     function GetScore() {
 
-        if (score > 0) {
+        if (i > 0) {
             return (<p>{score} / {i} ({Math.round((100 / (i)) * score)}%)</p>)
         }
 
