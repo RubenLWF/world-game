@@ -798,6 +798,10 @@
         "name": "Palau"
     },
     {
+        "alpha2": "ps",
+        "name": "Palestine"
+    },
+    {
         "id": 591,
         "alpha2": "pa",
         "alpha3": "pan",
@@ -1126,6 +1130,10 @@
         "alpha2": "vu",
         "alpha3": "vut",
         "name": "Vanuatu"
+    },
+    {
+        "alpha2": "va",
+        "name": "Vatican City"
     },
     {
         "id": 862,
