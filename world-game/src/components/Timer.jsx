@@ -11,12 +11,6 @@ export default function Timer() {
 
     const [intervalId, setIntervalId] = useState()
 
-    useEffect(() => {
-        window.addEventListener("startTimer", event => {
-            if (!intervalId) pauseOrResume()
-        })
-    }, [])
-
     const updateTimer = () => {
         setTime((prev) => {
             let newTime = { ...prev }
@@ -54,13 +48,7 @@ export default function Timer() {
         })
     }
 
-    if (time.sec === 0 && time.min === 0 && time.hr === 0) {
-        return (
-            <div className="game--timer">
-                <p><FaClock className="game--timer-icon"/> Time...</p>
-            </div>
-        )
-    }
+    if (!intervalId) pauseOrResume()
 
     return (
 		<div className="game--timer">
