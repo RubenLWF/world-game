@@ -1,48 +1,41 @@
-import { useState, useRef } from "react";
+import { useState, useRef } from "react"
 
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa'
 
 import countries from '../assets/countries.json'
-import ReactCountryFlag from "react-country-flag";
+import ReactCountryFlag from "react-country-flag"
+import TimerComponent from "./TimerComponent"
+import ScoreComponent from "./ScoreComponent"
 
 var i = 0
-var score = 0;
+var score = 0
 
-Shuffle(countries);
+shuffle(countries)
 
 export default function FlagComponent() {
 
-    const [Country, setCountry] = useState({ alpha2: countries[i].alpha2, names: countries[i].names })
-    const inputRef = useRef();
+    const [country, setCountry] = useState({ alpha2: countries[i].alpha2, names: countries[i].names })
+    const inputRef = useRef()
 
-    function NextFlag() {
+    function nextFlag() {
         i += 1
         setCountry({ alpha2: countries[i].alpha2, names: countries[i].names })
     }
 
-    function CheckAnswer() {
+    function checkAnswer() {
         var answer = inputRef.current.value
-        if (Country.names.includes(answer.toUpperCase())) {
+        if (country.names.includes(answer.toUpperCase())) {
             inputRef.current.value = ''
             score += 1
-            NextFlag()
+            nextFlag()
         }
-    }
-
-    function GetScore() {
-
-        if (i > 0) {
-            return (<p>{score} / {i} ({Math.round((100 / (i)) * score)}%)</p>)
-        }
-
-        return (<p>Your score will be displayed here...</p>)
     }
 
     return (
         <div className="flag">
             <ReactCountryFlag
                 className="flag--img"
-                countryCode={Country.alpha2}
+                countryCode={country.alpha2}
                 svg
                 style={{
                     width: "40em",
@@ -50,28 +43,25 @@ export default function FlagComponent() {
                 }}
             />
             <div className="flag--controls">
-                <input className="flag--input" type="text" placeholder="Country name..." ref={inputRef} onChange={() => CheckAnswer()}></input>
-                <button className="flag--button" onClick={() => NextFlag()}>Skip <FaArrowRight className="flag--button-icon" /></button>
+                <input className="flag--input" type="text" placeholder="Country name..." ref={inputRef} onChange={() => checkAnswer()}></input>
+                <button className="flag--button" onClick={() => nextFlag()}>Skip <FaArrowRight className="flag--button-icon" /></button>
             </div>
             <div className="flag--score">
-                <GetScore />
+                <ScoreComponent i={i} score={score} />
+                <TimerComponent />
             </div>
         </div >
     )
 }
 
-function Shuffle(array) {
-    let currentIndex = array.length;
+function shuffle(array) {
+    let currentIndex = array.length
 
-    // While there remain elements to shuffle...
     while (currentIndex != 0) {
+        let randomIndex = Math.floor(Math.random() * currentIndex)
+        currentIndex--
 
-        // Pick a remaining element...
-        let randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-
-        // And swap it with the current element.
         [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex], array[currentIndex]];
+            array[randomIndex], array[currentIndex]]
     }
 }
