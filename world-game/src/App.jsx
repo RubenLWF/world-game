@@ -1,10 +1,10 @@
 import './App.css'
-import FlagComponent from './components/FlagComponent';
+import FlagGame from './components/FlagGame';
 
 export default function App() {
   return (
     <>
-      <FlagComponent />
+      <FlagGame />
     </>
   )
 }

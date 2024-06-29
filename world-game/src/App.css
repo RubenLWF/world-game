@@ -3,11 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.flag {
+.game {
     width: fit-content;
     padding: 30px 30px 0 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,16 +14,16 @@ body {
     border-radius: 30px;
 }
 
-.flag--img {
+.game--flag {
     border-radius: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.flag--controls {
+.game--controls {
     width: 70%;
 }
 
-.flag--input {
+.game--input {
     width: 80%;
     height: 40px;
     padding: 12px 20px;
@@ -38,20 +37,20 @@ body {
     margin-right: 10px;
 }
 
-input:focus::placeholder {
+.game--input:focus::placeholder {
     color: transparent;
 }
 
-.flag--input:hover {
+.game--input:hover {
     background-color: rgb(206, 206, 206);
 }
 
-.flag--input:focus {
+.game--input:focus {
     outline: none;
     background-color: rgb(206, 206, 206);
 }
 
-.flag--button {
+.game--button {
     height: 40px;
     width: calc(20% - 10px);
     font-size: large;
@@ -61,11 +60,51 @@ input:focus::placeholder {
     color: rgb(0, 202, 0);
 }
 
-.flag--button:hover {
+.game--button:hover {
     background-color: rgb(0, 138, 0);
     color: rgb(0, 160, 0);
 }
 
-.flag--button-icon {
+.game--button-icon {
     vertical-align: middle;
+}
+
+.game--stats {
+    height: 40px;
+    display: flex;
+    margin: 10px 0 30px 0;
+}
+
+.game--stats p {
+    margin: 0;
+    padding: 10px;
+    vertical-align: center;
+}
+
+.game--score {
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: large;
+    border: none;
+    background-color: rgb(197, 197, 197);
+    margin: 0 5px;
+}
+
+.game--score-icon {
+    position: relative;
+    top: 2px;
+}
+
+.game--timer {
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: large;
+    border: none;
+    background-color: rgb(197, 197, 197);
+    margin: 0 5px;
+}
+
+.game--timer-icon {
+    position: relative;
+    top: 2px;
 }
