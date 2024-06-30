@@ -9,6 +9,12 @@ export default function Timer() {
         hr: 0
     })
 
+    useEffect(() => {
+        window.addEventListener("stopTimer", event => {
+            stopTimer()
+        })
+    }, [])
+
     const [intervalId, setIntervalId] = useState()
 
     const updateTimer = () => {
@@ -29,26 +35,16 @@ export default function Timer() {
         })
     }
 
-    const pauseOrResume = () => {
-        if (!intervalId) {
-            let id = setInterval(updateTimer, 1000)
-            setIntervalId(id)
-        } else {
-            clearInterval(intervalId)
-            setIntervalId("")
-        }
+    const startTimer = () => {
+        let id = setInterval(updateTimer, 1000)
+        setIntervalId(id)
     }
 
-    const reset = () => {
+    const stopTimer = () => {
         clearInterval(intervalId)
-        setTime({
-            sec: 0,
-            min: 0,
-            hr: 0
-        })
     }
 
-    if (!intervalId) pauseOrResume()
+    if (!intervalId) startTimer()
 
     return (
 		<div className="game--timer">

@@ -17,6 +17,7 @@ shuffle(countries)
 export default function FlagGame() {
 
     const [country, setCountry] = useState({ alpha2: countries[flagIndex].alpha2, names: countries[flagIndex].names })
+    const scores = localStorage.getItem('scores') ? JSON.parse(localStorage.getItem('scores')) : []
     const inputRef = useRef()
 
     useEffect(() => {
@@ -28,6 +29,11 @@ export default function FlagGame() {
 
     function nextFlag(first = false) {
         if (!first) flagIndex += 1
+        if (flagIndex >= countries.length) {
+            window.dispatchEvent(new Event("stopTimer"))
+            localStorage.setItem('scores', JSON.stringify([...scores, { score: score, date: new Date(), time: 0}]))
+            return
+        }
         setCountry({ alpha2: countries[flagIndex].alpha2, names: countries[flagIndex].names })
     }
 
