@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react"
 
 import { FaArrowRight } from 'react-icons/fa'
 
-import countries from '../assets/test-countries.json'
+import countries from '../assets/countries.json'
 import Start from "./Start"
 import Flag from "./Flag"
 import Timer from "./Timer"
@@ -17,7 +17,7 @@ shuffle(countries)
 export default function FlagGame() {
 
     const [country, setCountry] = useState({ alpha2: countries[flagIndex].alpha2, names: countries[flagIndex].names })
-    const [gameTime, setGameTime] = useState({})
+    const [gameTime, setGameTime] = useState(null)
     const scores = localStorage.getItem('scores') ? JSON.parse(localStorage.getItem('scores')) : []
     const inputRef = useRef()
 
@@ -29,6 +29,13 @@ export default function FlagGame() {
             nextFlag(true)
         })
     }, [])
+
+    useEffect(() => {
+        // Save score to local storage
+        if (gameTime != null) {
+            localStorage.setItem('scores', JSON.stringify([...scores, { score: score, time: gameTime, date: new Date() }]))
+        }
+    }, [gameTime]);
 
     // Get time from timer component
     function getTime(time) {
@@ -43,9 +50,6 @@ export default function FlagGame() {
             // Send event to stop timer
             window.dispatchEvent(new Event("stopTimer"))
 
-            // Save score to local storage
-            localStorage.setItem('scores', JSON.stringify([...scores, { score: score, time: gameTime, date: new Date()}]))
-
             // Re-shuffle countries
             shuffle(countries)
 
@@ -53,7 +57,7 @@ export default function FlagGame() {
             flagIndex = 0
             score = 0
             started = false
-            
+
             // Set flag to first in list
             setCountry({ alpha2: countries[flagIndex].alpha2, names: countries[flagIndex].names })
 

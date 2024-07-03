@@ -18,9 +18,8 @@ export default function Timer({ sendTime }) {
     useEffect(() => {
         window.addEventListener("stopTimer", event => {
             sendTime(returnTime)
-            console.log(returnTime)
             stopTimer()
-        }, {once: true})
+        }, { once: true })
     }, [])
 
     const [intervalId, setIntervalId] = useState()
@@ -62,8 +61,8 @@ export default function Timer({ sendTime }) {
     if (!intervalId) startTimer()
 
     return (
-		<div className="game--timer">
-			<p><FaClock className="game--timer-icon"/> {`${time.min < 10 ? 0 : ""}${time.min} : ${time.sec < 10 ? 0 : ""}${time.sec}`}</p>
-		</div>
-	)
+        <div className="game--timer">
+            <p><FaClock className="game--timer-icon" /> {`${time.min < 10 ? 0 : ""}${time.min} : ${time.sec < 10 ? 0 : ""}${time.sec}`}</p>
+        </div>
+    )
 }
