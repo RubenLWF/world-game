@@ -7,6 +7,7 @@ import Start from "./Start"
 import Flag from "./Flag"
 import Timer from "./Timer"
 import Score from "./Score"
+import Highscores from "./Highscores"
 
 var flagIndex = 0
 var score = 0
@@ -33,7 +34,20 @@ export default function FlagGame() {
     useEffect(() => {
         // Save score to local storage
         if (gameTime != null) {
-            localStorage.setItem('scores', JSON.stringify([...scores, { score: score, time: gameTime, date: new Date() }]))
+            scores.push({ score: score, time: gameTime, date: new Date() })
+
+            scores.sort((a, b) => b.score - a.score || (a.time.sec + a.time.min * 60 + a.time.hr * 60 * 60) - (b.time.sec + b.time.min * 60 + b.time.hr * 60 * 60))
+
+            if (scores.length > 10) {
+                scores.pop()
+            }
+
+            console.log(scores)
+
+            setGameTime(null)
+            score = 0
+
+            localStorage.setItem('scores', JSON.stringify(scores))
         }
     }, [gameTime]);
 
@@ -55,7 +69,6 @@ export default function FlagGame() {
 
             // Reset game
             flagIndex = 0
-            score = 0
             started = false
 
             // Set flag to first in list
@@ -88,17 +101,20 @@ export default function FlagGame() {
     }
 
     return (
-        <div className="game">
-            <Flag alpha2={country.alpha2} />
-            <div className="game--controls">
-                <input className="game--input" type="text" placeholder="Country name..." ref={inputRef} onChange={() => checkAnswer()}></input>
-                <button className="game--button" onClick={() => nextFlag()}>Skip <FaArrowRight className="button-icon" /></button>
-            </div>
-            <div className="game--stats">
-                <Score flagIndex={flagIndex} score={score} />
-                <Timer sendTime={getTime} />
-            </div>
-        </div >
+        <>
+            <div className="game">
+                <Flag alpha2={country.alpha2} />
+                <div className="game--controls">
+                    <input className="game--input" type="text" placeholder="Country name..." ref={inputRef} onChange={() => checkAnswer()}></input>
+                    <button className="game--button" onClick={() => nextFlag()}>Skip <FaArrowRight className="button-icon" /></button>
+                </div>
+                <div className="game--stats">
+                    <Score flagIndex={flagIndex} score={score} />
+                    <Timer sendTime={getTime} />
+                </div>
+            </div >
+            <Highscores />
+        </>
     )
 }
 

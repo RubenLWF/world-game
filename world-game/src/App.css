@@ -10,7 +10,7 @@ button {
     border: none;
 }
 
-.start {
+.start-screen {
     width: 40rem;
     padding: 30px;
     margin: 30px auto 0 auto;
@@ -21,19 +21,45 @@ button {
     border-radius: 30px;
 }
 
-.start--image {
+.start-screen--image {
     width: 60%;
 }
 
-.start--button {
+.start-screen--button {
     color: rgb(0, 202, 0);
     background-color: rgb(0, 153, 0);
     padding: 10px
 }
 
-.start--button:hover {
+.start-screen--button:hover {
     background-color: rgb(0, 138, 0);
     color: rgb(0, 160, 0);
+}
+
+.start--highscores {
+    width: 40rem;
+    padding: 10px 30px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    border-radius: 30px;
+    font-size: large;
+}
+
+.start--highscores-list {
+    columns: 2;
+}
+
+.start--highscores-list li {
+    margin: 0 15px;
+}
+
+.start--highscores-icon {
+    position: relative;
+    top: 2px;
+    margin: 0 5px;
 }
 
 .game {
