@@ -28,6 +28,7 @@ button {
 .start--button {
     color: rgb(0, 202, 0);
     background-color: rgb(0, 153, 0);
+    padding: 10px
 }
 
 .start--button:hover {
@@ -106,6 +107,7 @@ button {
 .game--stats p {
     margin: 0;
     padding: 10px;
+    padding-top: 9px;
     vertical-align: center;
 }
 

@@ -2,7 +2,13 @@ import { useState, useEffect } from "react"
 
 import { FaClock } from 'react-icons/fa'
 
-export default function Timer() {
+var returnTime = {
+    sec: 0,
+    min: 0,
+    hr: 0
+}
+
+export default function Timer({ sendTime }) {
     const [time, setTime] = useState({
         sec: 0,
         min: 0,
@@ -11,8 +17,10 @@ export default function Timer() {
 
     useEffect(() => {
         window.addEventListener("stopTimer", event => {
+            sendTime(returnTime)
+            console.log(returnTime)
             stopTimer()
-        })
+        }, {once: true})
     }, [])
 
     const [intervalId, setIntervalId] = useState()
@@ -31,6 +39,8 @@ export default function Timer() {
                 newTime.min = 0
             }
 
+            returnTime = newTime
+
             return newTime
         })
     }
@@ -42,6 +52,11 @@ export default function Timer() {
 
     const stopTimer = () => {
         clearInterval(intervalId)
+        returnTime = {
+            sec: 0,
+            min: 0,
+            hr: 0
+        }
     }
 
     if (!intervalId) startTimer()
