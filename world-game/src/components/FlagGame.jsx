@@ -4,6 +4,7 @@ import { FaArrowRight } from 'react-icons/fa'
 
 import countries from '../assets/countries.json'
 import Start from "./Start"
+import Restart from "./Restart"
 import Flag from "./Flag"
 import Timer from "./Timer"
 import Score from "./Score"
@@ -12,6 +13,9 @@ import Highscores from "./Highscores"
 var flagIndex = 0
 var score = 0
 var started = false
+var firstGame = true
+var oldTime = null
+var oldScore = 0
 
 shuffle(countries)
 
@@ -42,8 +46,8 @@ export default function FlagGame() {
                 scores.pop()
             }
 
-            console.log(scores)
-
+            oldTime = gameTime
+            oldScore = score
             setGameTime(null)
             score = 0
 
@@ -70,6 +74,7 @@ export default function FlagGame() {
             // Reset game
             flagIndex = 0
             started = false
+            firstGame = false
 
             // Set flag to first in list
             setCountry({ alpha2: countries[flagIndex].alpha2, names: countries[flagIndex].names })
@@ -97,7 +102,11 @@ export default function FlagGame() {
 
     // If the start button has not been pressed
     if (!started) {
-        return (<Start />)
+        if (firstGame) {
+            return (<Start />)
+        }
+
+        return (<Restart score={oldScore} time={oldTime} listSize={countries.length} />)
     }
 
     return (
