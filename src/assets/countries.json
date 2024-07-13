@@ -1,23 +1,8 @@
 [
     {
-        "alpha2": "af",
-        "alpha3": "afg",
-        "names": ["AFGHANISTAN"]
-    },
-    {
-        "alpha2": "al",
-        "alpha3": "alb",
-        "names": ["ALBANIA"]
-    },
-    {
         "alpha2": "dz",
         "alpha3": "dza",
         "names": ["ALGERIA"]
-    },
-    {
-        "alpha2": "ad",
-        "alpha3": "and",
-        "names": ["ANDORRA"]
     },
     {
         "alpha2": "ao",
@@ -25,109 +10,14 @@
         "names": ["ANGOLA"]
     },
     {
-        "alpha2": "ag",
-        "alpha3": "atg",
-        "names": ["ANTIGUA AND BARBUDA"]
-    },
-    {
-        "alpha2": "ar",
-        "alpha3": "arg",
-        "names": ["ARGENTINA"]
-    },
-    {
-        "alpha2": "am",
-        "alpha3": "arm",
-        "names": ["ARMENIA"]
-    },
-    {
-        "alpha2": "au",
-        "alpha3": "aus",
-        "names": ["AUSTRALIA"]
-    },
-    {
-        "alpha2": "at",
-        "alpha3": "aut",
-        "names": ["AUSTRIA"]
-    },
-    {
-        "alpha2": "az",
-        "alpha3": "aze",
-        "names": ["AZERBAIJAN"]
-    },
-    {
-        "alpha2": "bs",
-        "alpha3": "bhs",
-        "names": ["BAHAMAS", "THE BAHAMAS"]
-    },
-    {
-        "alpha2": "bh",
-        "alpha3": "bhr",
-        "names": ["BAHRAIN"]
-    },
-    {
-        "alpha2": "bd",
-        "alpha3": "bgd",
-        "names": ["BANGLADESH"]
-    },
-    {
-        "alpha2": "bb",
-        "alpha3": "brb",
-        "names": ["BARBADOS"]
-    },
-    {
-        "alpha2": "by",
-        "alpha3": "blr",
-        "names": ["BELARUS"]
-    },
-    {
-        "alpha2": "be",
-        "alpha3": "bel",
-        "names": ["BELGIUM"]
-    },
-    {
-        "alpha2": "bz",
-        "alpha3": "blz",
-        "names": ["BELIZE"]
-    },
-    {
         "alpha2": "bj",
         "alpha3": "ben",
         "names": ["BENIN"]
     },
     {
-        "alpha2": "bt",
-        "alpha3": "btn",
-        "names": ["BHUTAN"]
-    },
-    {
-        "alpha2": "bo",
-        "alpha3": "bol",
-        "names": ["BOLIVIA"]
-    },
-    {
-        "alpha2": "ba",
-        "alpha3": "bih",
-        "names": ["BOSNIA AND HERZEGOVINA"]
-    },
-    {
         "alpha2": "bw",
         "alpha3": "bwa",
         "names": ["BOTSWANA"]
-    },
-    {
-        "alpha2": "br",
-        "alpha3": "bra",
-        "names": ["BRAZIL"]
-    },
-    {
-        "alpha2": "bn",
-        "alpha3": "brn",
-        "names": ["BRUNEI"]
-    },
-    {
-        "alpha2": "bg",
-        "alpha3": "bgr",
-        "names": ["BULGARIA"]
     },
     {
         "alpha2": "bf",
@@ -145,19 +35,9 @@
         "names": ["CABO VERDE", "CAPE VERDE"]
     },
     {
-        "alpha2": "kh",
-        "alpha3": "khm",
-        "names": ["CAMBODIA"]
-    },
-    {
         "alpha2": "cm",
         "alpha3": "cmr",
         "names": ["CAMEROON"]
-    },
-    {
-        "alpha2": "ca",
-        "alpha3": "can",
-        "names": ["CANADA"]
     },
     {
         "alpha2": "cf",
@@ -168,21 +48,6 @@
         "alpha2": "td",
         "alpha3": "tcd",
         "names": ["CHAD"]
-    },
-    {
-        "alpha2": "cl",
-        "alpha3": "chl",
-        "names": ["CHILE"]
-    },
-    {
-        "alpha2": "cn",
-        "alpha3": "chn",
-        "names": ["CHINA"]
-    },
-    {
-        "alpha2": "co",
-        "alpha3": "col",
-        "names": ["COLOMBIA"]
     },
     {
         "alpha2": "km",
@@ -200,69 +65,14 @@
         "names": ["DEMOCRATIC REPUBLIC OF THE CONGO", "DRC"]
     },
     {
-        "alpha2": "cr",
-        "alpha3": "cri",
-        "names": ["COSTA RICA"]
-    },
-    {
-        "alpha2": "ci",
-        "alpha3": "civ",
-        "names": ["IVORY COAST", "CÔTE D'IVOIRE", "COTE D'IVOIRE"]
-    },
-    {
-        "alpha2": "hr",
-        "alpha3": "hrv",
-        "names": ["CROATIA"]
-    },
-    {
-        "alpha2": "cu",
-        "alpha3": "cub",
-        "names": ["CUBA"]
-    },
-    {
-        "alpha2": "cy",
-        "alpha3": "cyp",
-        "names": ["CYPRUS"]
-    },
-    {
-        "alpha2": "cz",
-        "alpha3": "cze",
-        "names": ["CZECH REPUBLIC", "CZECHIA"]
-    },
-    {
-        "alpha2": "dk",
-        "alpha3": "dnk",
-        "names": ["DENMARK"]
-    },
-    {
         "alpha2": "dj",
         "alpha3": "dji",
         "names": ["DJIBOUTI"]
     },
     {
-        "alpha2": "dm",
-        "alpha3": "dma",
-        "names": ["DOMINICA"]
-    },
-    {
-        "alpha2": "do",
-        "alpha3": "dom",
-        "names": ["DOMINICAN REPUBLIC"]
-    },
-    {
-        "alpha2": "ec",
-        "alpha3": "ecu",
-        "names": ["ECUADOR"]
-    },
-    {
         "alpha2": "eg",
         "alpha3": "egy",
         "names": ["EGYPT"]
-    },
-    {
-        "alpha2": "sv",
-        "alpha3": "slv",
-        "names": ["EL SALVADOR"]
     },
     {
         "alpha2": "gq",
@@ -275,11 +85,6 @@
         "names": ["ERITREA"]
     },
     {
-        "alpha2": "ee",
-        "alpha3": "est",
-        "names": ["ESTONIA"]
-    },
-    {
         "alpha2": "sz",
         "alpha3": "swz",
         "names": ["ESWATINI"]
@@ -288,21 +93,6 @@
         "alpha2": "et",
         "alpha3": "eth",
         "names": ["ETHIOPIA"]
-    },
-    {
-        "alpha2": "fj",
-        "alpha3": "fji",
-        "names": ["FIJI"]
-    },
-    {
-        "alpha2": "fi",
-        "alpha3": "fin",
-        "names": ["FINLAND"]
-    },
-    {
-        "alpha2": "fr",
-        "alpha3": "fra",
-        "names": ["FRANCE"]
     },
     {
         "alpha2": "ga",
@@ -315,34 +105,9 @@
         "names": ["GAMBIA", "THE GAMBIA"]
     },
     {
-        "alpha2": "ge",
-        "alpha3": "geo",
-        "names": ["GEORGIA"]
-    },
-    {
-        "alpha2": "de",
-        "alpha3": "deu",
-        "names": ["GERMANY"]
-    },
-    {
         "alpha2": "gh",
         "alpha3": "gha",
         "names": ["GHANA"]
-    },
-    {
-        "alpha2": "gr",
-        "alpha3": "grc",
-        "names": ["GREECE"]
-    },
-    {
-        "alpha2": "gd",
-        "alpha3": "grd",
-        "names": ["GRENADA"]
-    },
-    {
-        "alpha2": "gt",
-        "alpha3": "gtm",
-        "names": ["GUATEMALA"]
     },
     {
         "alpha2": "gn",
@@ -355,29 +120,199 @@
         "names": ["GUINEA-BISSAU", "GUINEA BISSAU"]
     },
     {
-        "alpha2": "gy",
-        "alpha3": "guy",
-        "names": ["GUYANA"]
+        "alpha2": "ci",
+        "alpha3": "civ",
+        "names": ["IVORY COAST", "CÔTE D'IVOIRE", "COTE D'IVOIRE"]
     },
     {
-        "alpha2": "ht",
-        "alpha3": "hti",
-        "names": ["HAITI"]
+        "alpha2": "ke",
+        "alpha3": "ken",
+        "names": ["KENYA"]
     },
     {
-        "alpha2": "hn",
-        "alpha3": "hnd",
-        "names": ["HONDURAS"]
+        "alpha2": "ls",
+        "alpha3": "lso",
+        "names": ["LESOTHO"]
     },
     {
-        "alpha2": "hu",
-        "alpha3": "hun",
-        "names": ["HUNGARY"]
+        "alpha2": "lr",
+        "alpha3": "lbr",
+        "names": ["LIBERIA"]
     },
     {
-        "alpha2": "is",
-        "alpha3": "isl",
-        "names": ["ICELAND"]
+        "alpha2": "ly",
+        "alpha3": "lby",
+        "names": ["LIBYA"]
+    },
+    {
+        "alpha2": "mg",
+        "alpha3": "mdg",
+        "names": ["MADAGASCAR"]
+    },
+    {
+        "alpha2": "mw",
+        "alpha3": "mwi",
+        "names": ["MALAWI"]
+    },
+    {
+        "alpha2": "ml",
+        "alpha3": "mli",
+        "names": ["MALI"]
+    },
+    {
+        "alpha2": "mr",
+        "alpha3": "mrt",
+        "names": ["MAURITANIA"]
+    },
+    {
+        "alpha2": "mu",
+        "alpha3": "mus",
+        "names": ["MAURITIUS"]
+    },
+    {
+        "alpha2": "ma",
+        "alpha3": "mar",
+        "names": ["MOROCCO"]
+    },
+    {
+        "alpha2": "mz",
+        "alpha3": "moz",
+        "names": ["MOZAMBIQUE"]
+    },
+    {
+        "alpha2": "na",
+        "alpha3": "nam",
+        "names": ["NAMIBIA"]
+    },
+    {
+        "alpha2": "ne",
+        "alpha3": "ner",
+        "names": ["NIGER"]
+    },
+    {
+        "alpha2": "ng",
+        "alpha3": "nga",
+        "names": ["NIGERIA"]
+    },
+    {
+        "alpha2": "rw",
+        "alpha3": "rwa",
+        "names": ["RWANDA"]
+    },
+    {
+        "alpha2": "st",
+        "alpha3": "stp",
+        "names": ["SAO TOME AND PRINCIPE"]
+    },
+    {
+        "alpha2": "sn",
+        "alpha3": "sen",
+        "names": ["SENEGAL"]
+    },
+    {
+        "alpha2": "sc",
+        "alpha3": "syc",
+        "names": ["SEYCHELLES"]
+    },
+    {
+        "alpha2": "sl",
+        "alpha3": "sle",
+        "names": ["SIERRA LEONE"]
+    },
+    {
+        "alpha2": "so",
+        "alpha3": "som",
+        "names": ["SOMALIA"]
+    },
+    {
+        "alpha2": "za",
+        "alpha3": "zaf",
+        "names": ["SOUTH AFRICA"]
+    },
+    {
+        "alpha2": "ss",
+        "alpha3": "ssd",
+        "names": ["SOUTH SUDAN"]
+    },
+    {
+        "alpha2": "sd",
+        "alpha3": "sdn",
+        "names": ["SUDAN"]
+    },
+    {
+        "alpha2": "tz",
+        "alpha3": "tza",
+        "names": ["TANZANIA"]
+    },
+    {
+        "alpha2": "tg",
+        "alpha3": "tgo",
+        "names": ["TOGO"]
+    },
+    {
+        "alpha2": "tn",
+        "alpha3": "tun",
+        "names": ["TUNISIA"]
+    },
+    {
+        "alpha2": "ug",
+        "alpha3": "uga",
+        "names": ["UGANDA"]
+    },
+    {
+        "alpha2": "zm",
+        "alpha3": "zmb",
+        "names": ["ZAMBIA"]
+    },
+    {
+        "alpha2": "zw",
+        "alpha3": "zwe",
+        "names": ["ZIMBABWE"]
+    },
+    {
+        "alpha2": "af",
+        "alpha3": "afg",
+        "names": ["AFGHANISTAN"]
+    },
+    {
+        "alpha2": "am",
+        "alpha3": "arm",
+        "names": ["ARMENIA"]
+    },
+    {
+        "alpha2": "az",
+        "alpha3": "aze",
+        "names": ["AZERBAIJAN"]
+    },
+    {
+        "alpha2": "bh",
+        "alpha3": "bhr",
+        "names": ["BAHRAIN"]
+    },
+    {
+        "alpha2": "bd",
+        "alpha3": "bgd",
+        "names": ["BANGLADESH"]
+    },
+    {
+        "alpha2": "bt",
+        "alpha3": "btn",
+        "names": ["BHUTAN"]
+    },
+    {
+        "alpha2": "bn",
+        "alpha3": "brn",
+        "names": ["BRUNEI"]
+    },
+    {
+        "alpha2": "kh",
+        "alpha3": "khm",
+        "names": ["CAMBODIA"]
+    },
+    {
+        "alpha2": "cn",
+        "alpha3": "chn",
+        "names": ["CHINA"]
     },
     {
         "alpha2": "in",
@@ -400,24 +335,9 @@
         "names": ["IRAQ"]
     },
     {
-        "alpha2": "ie",
-        "alpha3": "irl",
-        "names": ["IRELAND"]
-    },
-    {
         "alpha2": "il",
         "alpha3": "isr",
         "names": ["ISRAEL"]
-    },
-    {
-        "alpha2": "it",
-        "alpha3": "ita",
-        "names": ["ITALY"]
-    },
-    {
-        "alpha2": "jm",
-        "alpha3": "jam",
-        "names": ["JAMAICA"]
     },
     {
         "alpha2": "jp",
@@ -433,16 +353,6 @@
         "alpha2": "kz",
         "alpha3": "kaz",
         "names": ["KAZAKHSTAN"]
-    },
-    {
-        "alpha2": "ke",
-        "alpha3": "ken",
-        "names": ["KENYA"]
-    },
-    {
-        "alpha2": "ki",
-        "alpha3": "kir",
-        "names": ["KIRIBATI"]
     },
     {
         "alpha2": "kp",
@@ -470,29 +380,244 @@
         "names": ["LAOS"]
     },
     {
-        "alpha2": "lv",
-        "alpha3": "lva",
-        "names": ["LATVIA"]
-    },
-    {
         "alpha2": "lb",
         "alpha3": "lbn",
         "names": ["LEBANON"]
     },
     {
-        "alpha2": "ls",
-        "alpha3": "lso",
-        "names": ["LESOTHO"]
+        "alpha2": "my",
+        "alpha3": "mys",
+        "names": ["MALAYSIA"]
     },
     {
-        "alpha2": "lr",
-        "alpha3": "lbr",
-        "names": ["LIBERIA"]
+        "alpha2": "mv",
+        "alpha3": "mdv",
+        "names": ["MALDIVES"]
     },
     {
-        "alpha2": "ly",
-        "alpha3": "lby",
-        "names": ["LIBYA"]
+        "alpha2": "mn",
+        "alpha3": "mng",
+        "names": ["MONGOLIA"]
+    },
+    {
+        "alpha2": "mm",
+        "alpha3": "mmr",
+        "names": ["MYANMAR"]
+    },
+    {
+        "alpha2": "np",
+        "alpha3": "npl",
+        "names": ["NEPAL"]
+    },
+    {
+        "alpha2": "om",
+        "alpha3": "omn",
+        "names": ["OMAN"]
+    },
+    {
+        "alpha2": "pk",
+        "alpha3": "pak",
+        "names": ["PAKISTAN"]
+    },
+    {
+        "alpha2": "ps",
+        "alpha3": "pse",
+        "names": ["PALESTINE"]
+    },
+    {
+        "alpha2": "ph",
+        "alpha3": "phl",
+        "names": ["PHILIPPINES"]
+    },
+    {
+        "alpha2": "qa",
+        "alpha3": "qat",
+        "names": ["QATAR"]
+    },
+    {
+        "alpha2": "sa",
+        "alpha3": "sau",
+        "names": ["SAUDI ARABIA"]
+    },
+    {
+        "alpha2": "sg",
+        "alpha3": "sgp",
+        "names": ["SINGAPORE"]
+    },
+    {
+        "alpha2": "lk",
+        "alpha3": "lka",
+        "names": ["SRI LANKA"]
+    },
+    {
+        "alpha2": "sy",
+        "alpha3": "syr",
+        "names": ["SYRIA"]
+    },
+    {
+        "alpha2": "tj",
+        "alpha3": "tjk",
+        "names": ["TAJIKISTAN"]
+    },
+    {
+        "alpha2": "tw",
+        "alpha3": "twn",
+        "names": ["TAIWAN"]
+    },
+    {
+        "alpha2": "th",
+        "alpha3": "tha",
+        "names": ["THAILAND"]
+    },
+    {
+        "alpha2": "tl",
+        "alpha3": "tls",
+        "names": ["EAST TIMOR", "TIMOR-LESTE", "TIMOR LESTE"]
+    },
+    {
+        "alpha2": "tr",
+        "alpha3": "tur",
+        "names": ["TURKEY", "TÜRKIYE", "TURKIYE"]
+    },
+    {
+        "alpha2": "tm",
+        "alpha3": "tkm",
+        "names": ["TURKMENISTAN"]
+    },
+    {
+        "alpha2": "ae",
+        "alpha3": "are",
+        "names": ["UNITED ARAB EMIRATES", "UAE"]
+    },
+    {
+        "alpha2": "uz",
+        "alpha3": "uzb",
+        "names": ["UZBEKISTAN"]
+    },
+    {
+        "alpha2": "vn",
+        "alpha3": "vnm",
+        "names": ["VIETNAM"]
+    },
+    {
+        "alpha2": "ye",
+        "alpha3": "yem",
+        "names": ["YEMEN"]
+    },
+    {
+        "alpha2": "al",
+        "alpha3": "alb",
+        "names": ["ALBANIA"]
+    },
+    {
+        "alpha2": "ad",
+        "alpha3": "and",
+        "names": ["ANDORRA"]
+    },
+    {
+        "alpha2": "at",
+        "alpha3": "aut",
+        "names": ["AUSTRIA"]
+    },
+    {
+        "alpha2": "by",
+        "alpha3": "blr",
+        "names": ["BELARUS"]
+    },
+    {
+        "alpha2": "be",
+        "alpha3": "bel",
+        "names": ["BELGIUM"]
+    },
+    {
+        "alpha2": "ba",
+        "alpha3": "bih",
+        "names": ["BOSNIA AND HERZEGOVINA"]
+    },
+    {
+        "alpha2": "bg",
+        "alpha3": "bgr",
+        "names": ["BULGARIA"]
+    },
+    {
+        "alpha2": "hr",
+        "alpha3": "hrv",
+        "names": ["CROATIA"]
+    },
+    {
+        "alpha2": "cy",
+        "alpha3": "cyp",
+        "names": ["CYPRUS"]
+    },
+    {
+        "alpha2": "cz",
+        "alpha3": "cze",
+        "names": ["CZECH REPUBLIC", "CZECHIA"]
+    },
+    {
+        "alpha2": "dk",
+        "alpha3": "dnk",
+        "names": ["DENMARK"]
+    },
+    {
+        "alpha2": "ee",
+        "alpha3": "est",
+        "names": ["ESTONIA"]
+    },
+    {
+        "alpha2": "fi",
+        "alpha3": "fin",
+        "names": ["FINLAND"]
+    },
+    {
+        "alpha2": "fr",
+        "alpha3": "fra",
+        "names": ["FRANCE"]
+    },
+    {
+        "alpha2": "ge",
+        "alpha3": "geo",
+        "names": ["GEORGIA"]
+    },
+    {
+        "alpha2": "de",
+        "alpha3": "deu",
+        "names": ["GERMANY"]
+    },
+    {
+        "alpha2": "gr",
+        "alpha3": "grc",
+        "names": ["GREECE"]
+    },
+    {
+        "alpha2": "hu",
+        "alpha3": "hun",
+        "names": ["HUNGARY"]
+    },
+    {
+        "alpha2": "is",
+        "alpha3": "isl",
+        "names": ["ICELAND"]
+    },
+    {
+        "alpha2": "ie",
+        "alpha3": "irl",
+        "names": ["IRELAND"]
+    },
+    {
+        "alpha2": "it",
+        "alpha3": "ita",
+        "names": ["ITALY"]
+    },
+    {
+        "alpha2": "xk",
+        "alpha3": "xkx",
+        "names": ["KOSOVO"]
+    },
+    {
+        "alpha2": "lv",
+        "alpha3": "lva",
+        "names": ["LATVIA"]
     },
     {
         "alpha2": "li",
@@ -510,59 +635,14 @@
         "names": ["LUXEMBOURG"]
     },
     {
-        "alpha2": "mg",
-        "alpha3": "mdg",
-        "names": ["MADAGASCAR"]
-    },
-    {
-        "alpha2": "mw",
-        "alpha3": "mwi",
-        "names": ["MALAWI"]
-    },
-    {
-        "alpha2": "my",
-        "alpha3": "mys",
-        "names": ["MALAYSIA"]
-    },
-    {
-        "alpha2": "mv",
-        "alpha3": "mdv",
-        "names": ["MALDIVES"]
-    },
-    {
-        "alpha2": "ml",
-        "alpha3": "mli",
-        "names": ["MALI"]
+        "alpha2": "mk",
+        "alpha3": "mkd",
+        "names": ["NORTH MACEDONIA"]
     },
     {
         "alpha2": "mt",
         "alpha3": "mlt",
         "names": ["MALTA"]
-    },
-    {
-        "alpha2": "mh",
-        "alpha3": "mhl",
-        "names": ["MARSHALL ISLANDS"]
-    },
-    {
-        "alpha2": "mr",
-        "alpha3": "mrt",
-        "names": ["MAURITANIA"]
-    },
-    {
-        "alpha2": "mu",
-        "alpha3": "mus",
-        "names": ["MAURITIUS"]
-    },
-    {
-        "alpha2": "mx",
-        "alpha3": "mex",
-        "names": ["MEXICO"]
-    },
-    {
-        "alpha2": "fm",
-        "alpha3": "fsm",
-        "names": ["MICRONESIA", "FEDERATED STATES OF MICRONESIA"]
     },
     {
         "alpha2": "md",
@@ -575,44 +655,9 @@
         "names": ["MONACO"]
     },
     {
-        "alpha2": "mn",
-        "alpha3": "mng",
-        "names": ["MONGOLIA"]
-    },
-    {
         "alpha2": "me",
         "alpha3": "mne",
         "names": ["MONTENEGRO"]
-    },
-    {
-        "alpha2": "ma",
-        "alpha3": "mar",
-        "names": ["MOROCCO"]
-    },
-    {
-        "alpha2": "mz",
-        "alpha3": "moz",
-        "names": ["MOZAMBIQUE"]
-    },
-    {
-        "alpha2": "mm",
-        "alpha3": "mmr",
-        "names": ["MYANMAR"]
-    },
-    {
-        "alpha2": "na",
-        "alpha3": "nam",
-        "names": ["NAMIBIA"]
-    },
-    {
-        "alpha2": "nr",
-        "alpha3": "nru",
-        "names": ["NAURU"]
-    },
-    {
-        "alpha2": "np",
-        "alpha3": "npl",
-        "names": ["NEPAL"]
     },
     {
         "alpha2": "nl",
@@ -620,78 +665,9 @@
         "names": ["NETHERLANDS", "THE NETHERLANDS"]
     },
     {
-        "alpha2": "nz",
-        "alpha3": "nzl",
-        "names": ["NEW ZEALAND"]
-    },
-    {
-        "alpha2": "ni",
-        "alpha3": "nic",
-        "names": ["NICARAGUA"]
-    },
-    {
-        "alpha2": "ne",
-        "alpha3": "ner",
-        "names": ["NIGER"]
-    },
-    {
-        "alpha2": "ng",
-        "alpha3": "nga",
-        "names": ["NIGERIA"]
-    },
-    {
-        "alpha2": "mk",
-        "alpha3": "mkd",
-        "names": ["NORTH MACEDONIA"]
-    },
-    {
         "alpha2": "no",
         "alpha3": "nor",
         "names": ["NORWAY"]
-    },
-    {
-        "alpha2": "om",
-        "alpha3": "omn",
-        "names": ["OMAN"]
-    },
-    {
-        "alpha2": "pk",
-        "alpha3": "pak",
-        "names": ["PAKISTAN"]
-    },
-    {
-        "alpha2": "pw",
-        "alpha3": "plw",
-        "names": ["PALAU"]
-    },
-    {
-        "alpha2": "ps",
-        "names": ["PALESTINE"]
-    },
-    {
-        "alpha2": "pa",
-        "alpha3": "pan",
-        "names": ["PANAMA"]
-    },
-    {
-        "alpha2": "pg",
-        "alpha3": "png",
-        "names": ["PAPUA NEW GUINEA"]
-    },
-    {
-        "alpha2": "py",
-        "alpha3": "pry",
-        "names": ["PARAGUAY"]
-    },
-    {
-        "alpha2": "pe",
-        "alpha3": "per",
-        "names": ["PERU"]
-    },
-    {
-        "alpha2": "ph",
-        "alpha3": "phl",
-        "names": ["PHILIPPINES"]
     },
     {
         "alpha2": "pl",
@@ -704,11 +680,6 @@
         "names": ["PORTUGAL"]
     },
     {
-        "alpha2": "qa",
-        "alpha3": "qat",
-        "names": ["QATAR"]
-    },
-    {
         "alpha2": "ro",
         "alpha3": "rou",
         "names": ["ROMANIA"]
@@ -719,9 +690,144 @@
         "names": ["RUSSIA"]
     },
     {
-        "alpha2": "rw",
-        "alpha3": "rwa",
-        "names": ["RWANDA"]
+        "alpha2": "sm",
+        "alpha3": "smr",
+        "names": ["SAN MARINO"]
+    },
+    {
+        "alpha2": "rs",
+        "alpha3": "srb",
+        "names": ["SERBIA"]
+    },
+    {
+        "alpha2": "sk",
+        "alpha3": "svk",
+        "names": ["SLOVAKIA"]
+    },
+    {
+        "alpha2": "si",
+        "alpha3": "svn",
+        "names": ["SLOVENIA"]
+    },
+    {
+        "alpha2": "es",
+        "alpha3": "esp",
+        "names": ["SPAIN"]
+    },
+    {
+        "alpha2": "se",
+        "alpha3": "swe",
+        "names": ["SWEDEN"]
+    },
+    {
+        "alpha2": "ch",
+        "alpha3": "che",
+        "names": ["SWITZERLAND"]
+    },
+    {
+        "alpha2": "ua",
+        "alpha3": "ukr",
+        "names": ["UKRAINE"]
+    },
+    {
+        "alpha2": "gb",
+        "alpha3": "gbr",
+        "names": ["UNITED KINGDOM OF GREAT BRITAIN", "UNITED KINGDOM", "UK"]
+    },
+    {
+        "alpha2": "va",
+        "alpha3": "vat",
+        "names": ["VATICAN CITY"]
+    },
+    {
+        "alpha2": "ag",
+        "alpha3": "atg",
+        "names": ["ANTIGUA AND BARBUDA"]
+    },
+    {
+        "alpha2": "bs",
+        "alpha3": "bhs",
+        "names": ["BAHAMAS", "THE BAHAMAS"]
+    },
+    {
+        "alpha2": "bb",
+        "alpha3": "brb",
+        "names": ["BARBADOS"]
+    },
+    {
+        "alpha2": "bz",
+        "alpha3": "blz",
+        "names": ["BELIZE"]
+    },
+    {
+        "alpha2": "ca",
+        "alpha3": "can",
+        "names": ["CANADA"]
+    },
+    {
+        "alpha2": "cr",
+        "alpha3": "cri",
+        "names": ["COSTA RICA"]
+    },
+    {
+        "alpha2": "cu",
+        "alpha3": "cub",
+        "names": ["CUBA"]
+    },
+    {
+        "alpha2": "dm",
+        "alpha3": "dma",
+        "names": ["DOMINICA"]
+    },
+    {
+        "alpha2": "do",
+        "alpha3": "dom",
+        "names": ["DOMINICAN REPUBLIC"]
+    },
+    {
+        "alpha2": "sv",
+        "alpha3": "slv",
+        "names": ["EL SALVADOR"]
+    },
+    {
+        "alpha2": "gd",
+        "alpha3": "grd",
+        "names": ["GRENADA"]
+    },
+    {
+        "alpha2": "gt",
+        "alpha3": "gtm",
+        "names": ["GUATEMALA"]
+    },
+    {
+        "alpha2": "ht",
+        "alpha3": "hti",
+        "names": ["HAITI"]
+    },
+    {
+        "alpha2": "hn",
+        "alpha3": "hnd",
+        "names": ["HONDURAS"]
+    },
+    {
+        "alpha2": "jm",
+        "alpha3": "jam",
+        "names": ["JAMAICA"]
+    },
+    {
+        "alpha2": "mx",
+        "alpha3": "mex",
+        "names": ["MEXICO"]
+    },
+    {
+        "alpha2": "ni",
+        "alpha3": "nic",
+        "names": ["NICARAGUA"]
+    },
+    {
+        "alpha2": "pa",
+        "alpha3": "pan",
+        "names": ["PANAMA"]
     },
     {
         "alpha2": "kn",
@@ -739,189 +845,9 @@
         "names": ["SAINT VINCENT AND THE GRENADINES", "ST VINCENT AND THE GRENADINES", "ST. VINCENT AND THE GRENADINES"]
     },
     {
-        "alpha2": "ws",
-        "alpha3": "wsm",
-        "names": ["SAMOA"]
-    },
-    {
-        "alpha2": "sm",
-        "alpha3": "smr",
-        "names": ["SAN MARINO"]
-    },
-    {
-        "alpha2": "st",
-        "alpha3": "stp",
-        "names": ["SAO TOME AND PRINCIPE"]
-    },
-    {
-        "alpha2": "sa",
-        "alpha3": "sau",
-        "names": ["SAUDI ARABIA"]
-    },
-    {
-        "alpha2": "sn",
-        "alpha3": "sen",
-        "names": ["SENEGAL"]
-    },
-    {
-        "alpha2": "rs",
-        "alpha3": "srb",
-        "names": ["SERBIA"]
-    },
-    {
-        "alpha2": "sc",
-        "alpha3": "syc",
-        "names": ["SEYCHELLES"]
-    },
-    {
-        "alpha2": "sl",
-        "alpha3": "sle",
-        "names": ["SIERRA LEONE"]
-    },
-    {
-        "alpha2": "sg",
-        "alpha3": "sgp",
-        "names": ["SINGAPORE"]
-    },
-    {
-        "alpha2": "sk",
-        "alpha3": "svk",
-        "names": ["SLOVAKIA"]
-    },
-    {
-        "alpha2": "si",
-        "alpha3": "svn",
-        "names": ["SLOVENIA"]
-    },
-    {
-        "alpha2": "sb",
-        "alpha3": "slb",
-        "names": ["SOLOMON ISLANDS"]
-    },
-    {
-        "alpha2": "so",
-        "alpha3": "som",
-        "names": ["SOMALIA"]
-    },
-    {
-        "alpha2": "za",
-        "alpha3": "zaf",
-        "names": ["SOUTH AFRICA"]
-    },
-    {
-        "alpha2": "ss",
-        "alpha3": "ssd",
-        "names": ["SOUTH SUDAN"]
-    },
-    {
-        "alpha2": "es",
-        "alpha3": "esp",
-        "names": ["SPAIN"]
-    },
-    {
-        "alpha2": "lk",
-        "alpha3": "lka",
-        "names": ["SRI LANKA"]
-    },
-    {
-        "alpha2": "sd",
-        "alpha3": "sdn",
-        "names": ["SUDAN"]
-    },
-    {
-        "alpha2": "sr",
-        "alpha3": "sur",
-        "names": ["SURINAME"]
-    },
-    {
-        "alpha2": "se",
-        "alpha3": "swe",
-        "names": ["SWEDEN"]
-    },
-    {
-        "alpha2": "ch",
-        "alpha3": "che",
-        "names": ["SWITZERLAND"]
-    },
-    {
-        "alpha2": "sy",
-        "alpha3": "syr",
-        "names": ["SYRIA"]
-    },
-    {
-        "alpha2": "tj",
-        "alpha3": "tjk",
-        "names": ["TAJIKISTAN"]
-    },
-    {
-        "alpha2": "tz",
-        "alpha3": "tza",
-        "names": ["TANZANIA"]
-    },
-    {
-        "alpha2": "th",
-        "alpha3": "tha",
-        "names": ["THAILAND"]
-    },
-    {
-        "alpha2": "tl",
-        "alpha3": "tls",
-        "names": ["EAST TIMOR", "TIMOR-LESTE", "TIMOR LESTE"]
-    },
-    {
-        "alpha2": "tg",
-        "alpha3": "tgo",
-        "names": ["TOGO"]
-    },
-    {
-        "alpha2": "to",
-        "alpha3": "ton",
-        "names": ["TONGA"]
-    },
-    {
         "alpha2": "tt",
         "alpha3": "tto",
         "names": ["TRINIDAD AND TOBAGO"]
-    },
-    {
-        "alpha2": "tn",
-        "alpha3": "tun",
-        "names": ["TUNISIA"]
-    },
-    {
-        "alpha2": "tr",
-        "alpha3": "tur",
-        "names": ["TURKEY", "TÜRKIYE", "TURKIYE"]
-    },
-    {
-        "alpha2": "tm",
-        "alpha3": "tkm",
-        "names": ["TURKMENISTAN"]
-    },
-    {
-        "alpha2": "tv",
-        "alpha3": "tuv",
-        "names": ["TUVALU"]
-    },
-    {
-        "alpha2": "ug",
-        "alpha3": "uga",
-        "names": ["UGANDA"]
-    },
-    {
-        "alpha2": "ua",
-        "alpha3": "ukr",
-        "names": ["UKRAINE"]
-    },
-    {
-        "alpha2": "ae",
-        "alpha3": "are",
-        "names": ["UNITED ARAB EMIRATES", "UAE"]
-    },
-    {
-        "alpha2": "gb",
-        "alpha3": "gbr",
-        "names": ["UNITED KINGDOM OF GREAT BRITAIN", "UNITED KINGDOM", "UK"]
     },
     {
         "alpha2": "us",
@@ -929,14 +855,69 @@
         "names": ["UNITED STATES OF AMERICA", "UNITED STATES", "USA"]
     },
     {
-        "alpha2": "uy",
-        "alpha3": "ury",
-        "names": ["URUGUAY"]
+        "alpha2": "au",
+        "alpha3": "aus",
+        "names": ["AUSTRALIA"]
     },
     {
-        "alpha2": "uz",
-        "alpha3": "uzb",
-        "names": ["UZBEKISTAN"]
+        "alpha2": "fj",
+        "alpha3": "fji",
+        "names": ["FIJI"]
+    },
+    {
+        "alpha2": "ki",
+        "alpha3": "kir",
+        "names": ["KIRIBATI"]
+    },
+    {
+        "alpha2": "mh",
+        "alpha3": "mhl",
+        "names": ["MARSHALL ISLANDS"]
+    },
+    {
+        "alpha2": "fm",
+        "alpha3": "fsm",
+        "names": ["MICRONESIA", "FEDERATED STATES OF MICRONESIA"]
+    },
+    {
+        "alpha2": "nr",
+        "alpha3": "nru",
+        "names": ["NAURU"]
+    },
+    {
+        "alpha2": "nz",
+        "alpha3": "nzl",
+        "names": ["NEW ZEALAND"]
+    },
+    {
+        "alpha2": "pw",
+        "alpha3": "plw",
+        "names": ["PALAU"]
+    },
+    {
+        "alpha2": "pg",
+        "alpha3": "png",
+        "names": ["PAPUA NEW GUINEA"]
+    },
+    {
+        "alpha2": "ws",
+        "alpha3": "wsm",
+        "names": ["SAMOA"]
+    },
+    {
+        "alpha2": "sb",
+        "alpha3": "slb",
+        "names": ["SOLOMON ISLANDS"]
+    },
+    {
+        "alpha2": "to",
+        "alpha3": "ton",
+        "names": ["TONGA"]
+    },
+    {
+        "alpha2": "tv",
+        "alpha3": "tuv",
+        "names": ["TUVALU"]
     },
     {
         "alpha2": "vu",
@@ -944,32 +925,63 @@
         "names": ["VANUATU"]
     },
     {
-        "alpha2": "va",
-        "names": ["VATICAN CITY"]
+        "alpha2": "ar",
+        "alpha3": "arg",
+        "names": ["ARGENTINA"]
+    },
+    {
+        "alpha2": "bo",
+        "alpha3": "bol",
+        "names": ["BOLIVIA"]
+    },
+    {
+        "alpha2": "br",
+        "alpha3": "bra",
+        "names": ["BRAZIL"]
+    },
+    {
+        "alpha2": "cl",
+        "alpha3": "chl",
+        "names": ["CHILE"]
+    },
+    {
+        "alpha2": "co",
+        "alpha3": "col",
+        "names": ["COLOMBIA"]
+    },
+    {
+        "alpha2": "ec",
+        "alpha3": "ecu",
+        "names": ["ECUADOR"]
+    },
+    {
+        "alpha2": "gy",
+        "alpha3": "guy",
+        "names": ["GUYANA"]
+    },
+    {
+        "alpha2": "py",
+        "alpha3": "pry",
+        "names": ["PARAGUAY"]
+    },
+    {
+        "alpha2": "pe",
+        "alpha3": "per",
+        "names": ["PERU"]
+    },
+    {
+        "alpha2": "sr",
+        "alpha3": "sur",
+        "names": ["SURINAME"]
+    },
+    {
+        "alpha2": "uy",
+        "alpha3": "ury",
+        "names": ["URUGUAY"]
     },
     {
         "alpha2": "ve",
         "alpha3": "ven",
         "names": ["VENEZUELA"]
-    },
-    {
-        "alpha2": "vn",
-        "alpha3": "vnm",
-        "names": ["VIETNAM"]
-    },
-    {
-        "alpha2": "ye",
-        "alpha3": "yem",
-        "names": ["YEMEN"]
-    },
-    {
-        "alpha2": "zm",
-        "alpha3": "zmb",
-        "names": ["ZAMBIA"]
-    },
-    {
-        "alpha2": "zw",
-        "alpha3": "zwe",
-        "names": ["ZIMBABWE"]
     }
 ]

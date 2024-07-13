@@ -1,0 +1,237 @@
+[
+    {
+        "alpha2": "al",
+        "alpha3": "alb",
+        "names": ["ALBANIA"]
+    },
+    {
+        "alpha2": "ad",
+        "alpha3": "and",
+        "names": ["ANDORRA"]
+    },
+    {
+        "alpha2": "at",
+        "alpha3": "aut",
+        "names": ["AUSTRIA"]
+    },
+    {
+        "alpha2": "by",
+        "alpha3": "blr",
+        "names": ["BELARUS"]
+    },
+    {
+        "alpha2": "be",
+        "alpha3": "bel",
+        "names": ["BELGIUM"]
+    },
+    {
+        "alpha2": "ba",
+        "alpha3": "bih",
+        "names": ["BOSNIA AND HERZEGOVINA"]
+    },
+    {
+        "alpha2": "bg",
+        "alpha3": "bgr",
+        "names": ["BULGARIA"]
+    },
+    {
+        "alpha2": "hr",
+        "alpha3": "hrv",
+        "names": ["CROATIA"]
+    },
+    {
+        "alpha2": "cy",
+        "alpha3": "cyp",
+        "names": ["CYPRUS"]
+    },
+    {
+        "alpha2": "cz",
+        "alpha3": "cze",
+        "names": ["CZECH REPUBLIC", "CZECHIA"]
+    },
+    {
+        "alpha2": "dk",
+        "alpha3": "dnk",
+        "names": ["DENMARK"]
+    },
+    {
+        "alpha2": "ee",
+        "alpha3": "est",
+        "names": ["ESTONIA"]
+    },
+    {
+        "alpha2": "fi",
+        "alpha3": "fin",
+        "names": ["FINLAND"]
+    },
+    {
+        "alpha2": "fr",
+        "alpha3": "fra",
+        "names": ["FRANCE"]
+    },
+    {
+        "alpha2": "ge",
+        "alpha3": "geo",
+        "names": ["GEORGIA"]
+    },
+    {
+        "alpha2": "de",
+        "alpha3": "deu",
+        "names": ["GERMANY"]
+    },
+    {
+        "alpha2": "gr",
+        "alpha3": "grc",
+        "names": ["GREECE"]
+    },
+    {
+        "alpha2": "hu",
+        "alpha3": "hun",
+        "names": ["HUNGARY"]
+    },
+    {
+        "alpha2": "is",
+        "alpha3": "isl",
+        "names": ["ICELAND"]
+    },
+    {
+        "alpha2": "ie",
+        "alpha3": "irl",
+        "names": ["IRELAND"]
+    },
+    {
+        "alpha2": "it",
+        "alpha3": "ita",
+        "names": ["ITALY"]
+    },
+    {
+        "alpha2": "xk",
+        "alpha3": "xkx",
+        "names": ["KOSOVO"]
+    },
+    {
+        "alpha2": "lv",
+        "alpha3": "lva",
+        "names": ["LATVIA"]
+    },
+    {
+        "alpha2": "li",
+        "alpha3": "lie",
+        "names": ["LIECHTENSTEIN"]
+    },
+    {
+        "alpha2": "lt",
+        "alpha3": "ltu",
+        "names": ["LITHUANIA"]
+    },
+    {
+        "alpha2": "lu",
+        "alpha3": "lux",
+        "names": ["LUXEMBOURG"]
+    },
+    {
+        "alpha2": "mk",
+        "alpha3": "mkd",
+        "names": ["NORTH MACEDONIA"]
+    },
+    {
+        "alpha2": "mt",
+        "alpha3": "mlt",
+        "names": ["MALTA"]
+    },
+    {
+        "alpha2": "md",
+        "alpha3": "mda",
+        "names": ["MOLDOVA"]
+    },
+    {
+        "alpha2": "mc",
+        "alpha3": "mco",
+        "names": ["MONACO"]
+    },
+    {
+        "alpha2": "me",
+        "alpha3": "mne",
+        "names": ["MONTENEGRO"]
+    },
+    {
+        "alpha2": "nl",
+        "alpha3": "nld",
+        "names": ["NETHERLANDS", "THE NETHERLANDS"]
+    },
+    {
+        "alpha2": "no",
+        "alpha3": "nor",
+        "names": ["NORWAY"]
+    },
+    {
+        "alpha2": "pl",
+        "alpha3": "pol",
+        "names": ["POLAND"]
+    },
+    {
+        "alpha2": "pt",
+        "alpha3": "prt",
+        "names": ["PORTUGAL"]
+    },
+    {
+        "alpha2": "ro",
+        "alpha3": "rou",
+        "names": ["ROMANIA"]
+    },
+    {
+        "alpha2": "ru",
+        "alpha3": "rus",
+        "names": ["RUSSIA"]
+    },
+    {
+        "alpha2": "sm",
+        "alpha3": "smr",
+        "names": ["SAN MARINO"]
+    },
+    {
+        "alpha2": "rs",
+        "alpha3": "srb",
+        "names": ["SERBIA"]
+    },
+    {
+        "alpha2": "sk",
+        "alpha3": "svk",
+        "names": ["SLOVAKIA"]
+    },
+    {
+        "alpha2": "si",
+        "alpha3": "svn",
+        "names": ["SLOVENIA"]
+    },
+    {
+        "alpha2": "es",
+        "alpha3": "esp",
+        "names": ["SPAIN"]
+    },
+    {
+        "alpha2": "se",
+        "alpha3": "swe",
+        "names": ["SWEDEN"]
+    },
+    {
+        "alpha2": "ch",
+        "alpha3": "che",
+        "names": ["SWITZERLAND"]
+    },
+    {
+        "alpha2": "ua",
+        "alpha3": "ukr",
+        "names": ["UKRAINE"]
+    },
+    {
+        "alpha2": "gb",
+        "alpha3": "gbr",
+        "names": ["UNITED KINGDOM OF GREAT BRITAIN", "UNITED KINGDOM", "UK"]
+    },
+    {
+        "alpha2": "va",
+        "alpha3": "vat",
+        "names": ["VATICAN CITY"]
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "alpha2": "dz",
+        "alpha3": "dza",
+        "names": ["ALGERIA"]
+    },
+    {
+        "alpha2": "ao",
+        "alpha3": "ago",
+        "names": ["ANGOLA"]
+    },
+    {
+        "alpha2": "bj",
+        "alpha3": "ben",
+        "names": ["BENIN"]
+    },
+    {
+        "alpha2": "bw",
+        "alpha3": "bwa",
+        "names": ["BOTSWANA"]
+    },
+    {
+        "alpha2": "bf",
+        "alpha3": "bfa",
+        "names": ["BURKINA FASO"]
+    },
+    {
+        "alpha2": "bi",
+        "alpha3": "bdi",
+        "names": ["BURUNDI"]
+    },
+    {
+        "alpha2": "cv",
+        "alpha3": "cpv",
+        "names": ["CABO VERDE", "CAPE VERDE"]
+    },
+    {
+        "alpha2": "cm",
+        "alpha3": "cmr",
+        "names": ["CAMEROON"]
+    },
+    {
+        "alpha2": "cf",
+        "alpha3": "caf",
+        "names": ["CENTRAL AFRICAN REPUBLIC", "CAR"]
+    },
+    {
+        "alpha2": "td",
+        "alpha3": "tcd",
+        "names": ["CHAD"]
+    },
+    {
+        "alpha2": "km",
+        "alpha3": "com",
+        "names": ["COMOROS"]
+    },
+    {
+        "alpha2": "cg",
+        "alpha3": "cog",
+        "names": ["CONGO", "REPUBLIC OF THE CONGO", "CONGO-BRAZZAVILLE", "CONGO BRAZZAVILLE"]
+    },
+    {
+        "alpha2": "cd",
+        "alpha3": "cod",
+        "names": ["DEMOCRATIC REPUBLIC OF THE CONGO", "DRC"]
+    },
+    {
+        "alpha2": "dj",
+        "alpha3": "dji",
+        "names": ["DJIBOUTI"]
+    },
+    {
+        "alpha2": "eg",
+        "alpha3": "egy",
+        "names": ["EGYPT"]
+    },
+    {
+        "alpha2": "gq",
+        "alpha3": "gnq",
+        "names": ["EQUATORIAL GUINEA"]
+    },
+    {
+        "alpha2": "er",
+        "alpha3": "eri",
+        "names": ["ERITREA"]
+    },
+    {
+        "alpha2": "sz",
+        "alpha3": "swz",
+        "names": ["ESWATINI"]
+    },
+    {
+        "alpha2": "et",
+        "alpha3": "eth",
+        "names": ["ETHIOPIA"]
+    },
+    {
+        "alpha2": "ga",
+        "alpha3": "gab",
+        "names": ["GABON"]
+    },
+    {
+        "alpha2": "gm",
+        "alpha3": "gmb",
+        "names": ["GAMBIA", "THE GAMBIA"]
+    },
+    {
+        "alpha2": "gh",
+        "alpha3": "gha",
+        "names": ["GHANA"]
+    },
+    {
+        "alpha2": "gn",
+        "alpha3": "gin",
+        "names": ["GUINEA"]
+    },
+    {
+        "alpha2": "gw",
+        "alpha3": "gnb",
+        "names": ["GUINEA-BISSAU", "GUINEA BISSAU"]
+    },
+    {
+        "alpha2": "ci",
+        "alpha3": "civ",
+        "names": ["IVORY COAST", "CÔTE D'IVOIRE", "COTE D'IVOIRE"]
+    },
+    {
+        "alpha2": "ke",
+        "alpha3": "ken",
+        "names": ["KENYA"]
+    },
+    {
+        "alpha2": "ls",
+        "alpha3": "lso",
+        "names": ["LESOTHO"]
+    },
+    {
+        "alpha2": "lr",
+        "alpha3": "lbr",
+        "names": ["LIBERIA"]
+    },
+    {
+        "alpha2": "ly",
+        "alpha3": "lby",
+        "names": ["LIBYA"]
+    },
+    {
+        "alpha2": "mg",
+        "alpha3": "mdg",
+        "names": ["MADAGASCAR"]
+    },
+    {
+        "alpha2": "mw",
+        "alpha3": "mwi",
+        "names": ["MALAWI"]
+    },
+    {
+        "alpha2": "ml",
+        "alpha3": "mli",
+        "names": ["MALI"]
+    },
+    {
+        "alpha2": "mr",
+        "alpha3": "mrt",
+        "names": ["MAURITANIA"]
+    },
+    {
+        "alpha2": "mu",
+        "alpha3": "mus",
+        "names": ["MAURITIUS"]
+    },
+    {
+        "alpha2": "ma",
+        "alpha3": "mar",
+        "names": ["MOROCCO"]
+    },
+    {
+        "alpha2": "mz",
+        "alpha3": "moz",
+        "names": ["MOZAMBIQUE"]
+    },
+    {
+        "alpha2": "na",
+        "alpha3": "nam",
+        "names": ["NAMIBIA"]
+    },
+    {
+        "alpha2": "ne",
+        "alpha3": "ner",
+        "names": ["NIGER"]
+    },
+    {
+        "alpha2": "ng",
+        "alpha3": "nga",
+        "names": ["NIGERIA"]
+    },
+    {
+        "alpha2": "rw",
+        "alpha3": "rwa",
+        "names": ["RWANDA"]
+    },
+    {
+        "alpha2": "st",
+        "alpha3": "stp",
+        "names": ["SAO TOME AND PRINCIPE"]
+    },
+    {
+        "alpha2": "sn",
+        "alpha3": "sen",
+        "names": ["SENEGAL"]
+    },
+    {
+        "alpha2": "sc",
+        "alpha3": "syc",
+        "names": ["SEYCHELLES"]
+    },
+    {
+        "alpha2": "sl",
+        "alpha3": "sle",
+        "names": ["SIERRA LEONE"]
+    },
+    {
+        "alpha2": "so",
+        "alpha3": "som",
+        "names": ["SOMALIA"]
+    },
+    {
+        "alpha2": "za",
+        "alpha3": "zaf",
+        "names": ["SOUTH AFRICA"]
+    },
+    {
+        "alpha2": "ss",
+        "alpha3": "ssd",
+        "names": ["SOUTH SUDAN"]
+    },
+    {
+        "alpha2": "sd",
+        "alpha3": "sdn",
+        "names": ["SUDAN"]
+    },
+    {
+        "alpha2": "tz",
+        "alpha3": "tza",
+        "names": ["TANZANIA"]
+    },
+    {
+        "alpha2": "tg",
+        "alpha3": "tgo",
+        "names": ["TOGO"]
+    },
+    {
+        "alpha2": "tn",
+        "alpha3": "tun",
+        "names": ["TUNISIA"]
+    },
+    {
+        "alpha2": "ug",
+        "alpha3": "uga",
+        "names": ["UGANDA"]
+    },
+    {
+        "alpha2": "zm",
+        "alpha3": "zmb",
+        "names": ["ZAMBIA"]
+    },
+    {
+        "alpha2": "zw",
+        "alpha3": "zwe",
+        "names": ["ZIMBABWE"]
+    }
+]

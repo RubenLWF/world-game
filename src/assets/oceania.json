@@ -1,0 +1,72 @@
+[
+    {
+        "alpha2": "au",
+        "alpha3": "aus",
+        "names": ["AUSTRALIA"]
+    },
+    {
+        "alpha2": "fj",
+        "alpha3": "fji",
+        "names": ["FIJI"]
+    },
+    {
+        "alpha2": "ki",
+        "alpha3": "kir",
+        "names": ["KIRIBATI"]
+    },
+    {
+        "alpha2": "mh",
+        "alpha3": "mhl",
+        "names": ["MARSHALL ISLANDS"]
+    },
+    {
+        "alpha2": "fm",
+        "alpha3": "fsm",
+        "names": ["MICRONESIA", "FEDERATED STATES OF MICRONESIA"]
+    },
+    {
+        "alpha2": "nr",
+        "alpha3": "nru",
+        "names": ["NAURU"]
+    },
+    {
+        "alpha2": "nz",
+        "alpha3": "nzl",
+        "names": ["NEW ZEALAND"]
+    },
+    {
+        "alpha2": "pw",
+        "alpha3": "plw",
+        "names": ["PALAU"]
+    },
+    {
+        "alpha2": "pg",
+        "alpha3": "png",
+        "names": ["PAPUA NEW GUINEA"]
+    },
+    {
+        "alpha2": "ws",
+        "alpha3": "wsm",
+        "names": ["SAMOA"]
+    },
+    {
+        "alpha2": "sb",
+        "alpha3": "slb",
+        "names": ["SOLOMON ISLANDS"]
+    },
+    {
+        "alpha2": "to",
+        "alpha3": "ton",
+        "names": ["TONGA"]
+    },
+    {
+        "alpha2": "tv",
+        "alpha3": "tuv",
+        "names": ["TUVALU"]
+    },
+    {
+        "alpha2": "vu",
+        "alpha3": "vut",
+        "names": ["VANUATU"]
+    }
+]

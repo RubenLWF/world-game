@@ -1,0 +1,237 @@
+[
+    {
+        "alpha2": "af",
+        "alpha3": "afg",
+        "names": ["AFGHANISTAN"]
+    },
+    {
+        "alpha2": "am",
+        "alpha3": "arm",
+        "names": ["ARMENIA"]
+    },
+    {
+        "alpha2": "az",
+        "alpha3": "aze",
+        "names": ["AZERBAIJAN"]
+    },
+    {
+        "alpha2": "bh",
+        "alpha3": "bhr",
+        "names": ["BAHRAIN"]
+    },
+    {
+        "alpha2": "bd",
+        "alpha3": "bgd",
+        "names": ["BANGLADESH"]
+    },
+    {
+        "alpha2": "bt",
+        "alpha3": "btn",
+        "names": ["BHUTAN"]
+    },
+    {
+        "alpha2": "bn",
+        "alpha3": "brn",
+        "names": ["BRUNEI"]
+    },
+    {
+        "alpha2": "kh",
+        "alpha3": "khm",
+        "names": ["CAMBODIA"]
+    },
+    {
+        "alpha2": "cn",
+        "alpha3": "chn",
+        "names": ["CHINA"]
+    },
+    {
+        "alpha2": "in",
+        "alpha3": "ind",
+        "names": ["INDIA"]
+    },
+    {
+        "alpha2": "id",
+        "alpha3": "idn",
+        "names": ["INDONESIA"]
+    },
+    {
+        "alpha2": "ir",
+        "alpha3": "irn",
+        "names": ["IRAN"]
+    },
+    {
+        "alpha2": "iq",
+        "alpha3": "irq",
+        "names": ["IRAQ"]
+    },
+    {
+        "alpha2": "il",
+        "alpha3": "isr",
+        "names": ["ISRAEL"]
+    },
+    {
+        "alpha2": "jp",
+        "alpha3": "jpn",
+        "names": ["JAPAN"]
+    },
+    {
+        "alpha2": "jo",
+        "alpha3": "jor",
+        "names": ["JORDAN"]
+    },
+    {
+        "alpha2": "kz",
+        "alpha3": "kaz",
+        "names": ["KAZAKHSTAN"]
+    },
+    {
+        "alpha2": "kp",
+        "alpha3": "prk",
+        "names": ["NORTH KOREA", "DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA"]
+    },
+    {
+        "alpha2": "kr",
+        "alpha3": "kor",
+        "names": ["SOUTH KOREA", "REPUBLIC OF KOREA"]
+    },
+    {
+        "alpha2": "kw",
+        "alpha3": "kwt",
+        "names": ["KUWAIT"]
+    },
+    {
+        "alpha2": "kg",
+        "alpha3": "kgz",
+        "names": ["KYRGYZSTAN"]
+    },
+    {
+        "alpha2": "la",
+        "alpha3": "lao",
+        "names": ["LAOS"]
+    },
+    {
+        "alpha2": "lb",
+        "alpha3": "lbn",
+        "names": ["LEBANON"]
+    },
+    {
+        "alpha2": "my",
+        "alpha3": "mys",
+        "names": ["MALAYSIA"]
+    },
+    {
+        "alpha2": "mv",
+        "alpha3": "mdv",
+        "names": ["MALDIVES"]
+    },
+    {
+        "alpha2": "mn",
+        "alpha3": "mng",
+        "names": ["MONGOLIA"]
+    },
+    {
+        "alpha2": "mm",
+        "alpha3": "mmr",
+        "names": ["MYANMAR"]
+    },
+    {
+        "alpha2": "np",
+        "alpha3": "npl",
+        "names": ["NEPAL"]
+    },
+    {
+        "alpha2": "om",
+        "alpha3": "omn",
+        "names": ["OMAN"]
+    },
+    {
+        "alpha2": "pk",
+        "alpha3": "pak",
+        "names": ["PAKISTAN"]
+    },
+    {
+        "alpha2": "ps",
+        "alpha3": "pse",
+        "names": ["PALESTINE"]
+    },
+    {
+        "alpha2": "ph",
+        "alpha3": "phl",
+        "names": ["PHILIPPINES"]
+    },
+    {
+        "alpha2": "qa",
+        "alpha3": "qat",
+        "names": ["QATAR"]
+    },
+    {
+        "alpha2": "sa",
+        "alpha3": "sau",
+        "names": ["SAUDI ARABIA"]
+    },
+    {
+        "alpha2": "sg",
+        "alpha3": "sgp",
+        "names": ["SINGAPORE"]
+    },
+    {
+        "alpha2": "lk",
+        "alpha3": "lka",
+        "names": ["SRI LANKA"]
+    },
+    {
+        "alpha2": "sy",
+        "alpha3": "syr",
+        "names": ["SYRIA"]
+    },
+    {
+        "alpha2": "tj",
+        "alpha3": "tjk",
+        "names": ["TAJIKISTAN"]
+    },
+    {
+        "alpha2": "tw",
+        "alpha3": "twn",
+        "names": ["TAIWAN"]
+    },
+    {
+        "alpha2": "th",
+        "alpha3": "tha",
+        "names": ["THAILAND"]
+    },
+    {
+        "alpha2": "tl",
+        "alpha3": "tls",
+        "names": ["EAST TIMOR", "TIMOR-LESTE", "TIMOR LESTE"]
+    },
+    {
+        "alpha2": "tr",
+        "alpha3": "tur",
+        "names": ["TURKEY", "TÜRKIYE", "TURKIYE"]
+    },
+    {
+        "alpha2": "tm",
+        "alpha3": "tkm",
+        "names": ["TURKMENISTAN"]
+    },
+    {
+        "alpha2": "ae",
+        "alpha3": "are",
+        "names": ["UNITED ARAB EMIRATES", "UAE"]
+    },
+    {
+        "alpha2": "uz",
+        "alpha3": "uzb",
+        "names": ["UZBEKISTAN"]
+    },
+    {
+        "alpha2": "vn",
+        "alpha3": "vnm",
+        "names": ["VIETNAM"]
+    },
+    {
+        "alpha2": "ye",
+        "alpha3": "yem",
+        "names": ["YEMEN"]
+    }
+]

@@ -29,7 +29,8 @@ button {
 .start-screen--button {
     color: rgb(216, 216, 216);
     background-color: #33b249;
-    padding: 10px
+    padding: 10px;
+    margin-left: 10px;
 }
 
 .start-screen--button:hover {
@@ -37,7 +38,25 @@ button {
     color: rgb(216, 216, 216);
 }
 
-.start--highscores {
+.start-screen--dropdown {
+    height: 40px;
+    font-size: large;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(185, 185, 185);
+    padding: 10px;
+    margin-right: 10px;
+    text-align-last: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.start-screen--dropdown:after {
+    padding-right: 10px;
+}
+
+.highscores {
     width: 40rem;
     padding: 10px 30px;
     margin: 20px auto 0 auto;
@@ -49,15 +68,15 @@ button {
     font-size: large;
 }
 
-.start--highscores-list {
+.highscores--list {
     columns: 2;
 }
 
-.start--highscores-list li {
+.highscores--list li {
     margin: 0 15px;
 }
 
-.start--highscores-icon {
+.highscores--list-icon {
     position: relative;
     top: 2px;
     margin: 0 5px;

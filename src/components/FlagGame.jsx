@@ -2,9 +2,8 @@ import { useState, useRef, useEffect } from "react"
 
 import { FaArrowRight } from 'react-icons/fa'
 
-import countries from '../assets/countries.json'
+import world from '../assets/countries.json'
 import Start from "./Start"
-import Restart from "./Restart"
 import Flag from "./Flag"
 import Timer from "./Timer"
 import Score from "./Score"
@@ -16,20 +15,22 @@ var started = false
 var firstGame = true
 var oldTime = null
 var oldScore = 0
-
-shuffle(countries)
+var gameType = "world"
+var countries = world
 
 export default function FlagGame() {
 
     const [country, setCountry] = useState({ alpha2: countries[flagIndex].alpha2, names: countries[flagIndex].names })
     const [gameTime, setGameTime] = useState(null)
-    const scores = localStorage.getItem('scores') ? JSON.parse(localStorage.getItem('scores')) : []
     const inputRef = useRef()
 
     useEffect(() => {
         // Listen for startGame event
         window.addEventListener("startGame", event => {
             // Set started to true and move to first flag
+            gameType = event.detail.name
+            countries = event.detail.list
+            shuffle(countries)
             started = true
             nextFlag(true)
         })
@@ -38,7 +39,10 @@ export default function FlagGame() {
     useEffect(() => {
         // Save score to local storage
         if (gameTime != null) {
-            scores.push({ score: score, time: gameTime, date: new Date() })
+            const scoreName = gameType + '_scores'
+            var scores = localStorage.getItem(scoreName) ? JSON.parse(localStorage.getItem(scoreName)) : []
+
+            scores.push({ score: score, total: countries.length, time: gameTime, date: new Date() })
 
             scores.sort((a, b) => b.score - a.score || (a.time.sec + a.time.min * 60 + a.time.hr * 60 * 60) - (b.time.sec + b.time.min * 60 + b.time.hr * 60 * 60))
 
@@ -51,7 +55,7 @@ export default function FlagGame() {
             setGameTime(null)
             score = 0
 
-            localStorage.setItem('scores', JSON.stringify(scores))
+            localStorage.setItem(scoreName, JSON.stringify(scores))
         }
     }, [gameTime]);
 
@@ -102,11 +106,7 @@ export default function FlagGame() {
 
     // If the start button has not been pressed
     if (!started) {
-        if (firstGame) {
-            return (<Start />)
-        }
-
-        return (<Restart score={oldScore} time={oldTime} listSize={countries.length} />)
+        return (<Start firstGame={firstGame} previousGame={ {score: oldScore, time: oldTime, listSize: countries.length}}/>)
     }
 
     return (

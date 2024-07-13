@@ -1,0 +1,62 @@
+[
+    {
+        "alpha2": "ar",
+        "alpha3": "arg",
+        "names": ["ARGENTINA"]
+    },
+    {
+        "alpha2": "bo",
+        "alpha3": "bol",
+        "names": ["BOLIVIA"]
+    },
+    {
+        "alpha2": "br",
+        "alpha3": "bra",
+        "names": ["BRAZIL"]
+    },
+    {
+        "alpha2": "cl",
+        "alpha3": "chl",
+        "names": ["CHILE"]
+    },
+    {
+        "alpha2": "co",
+        "alpha3": "col",
+        "names": ["COLOMBIA"]
+    },
+    {
+        "alpha2": "ec",
+        "alpha3": "ecu",
+        "names": ["ECUADOR"]
+    },
+    {
+        "alpha2": "gy",
+        "alpha3": "guy",
+        "names": ["GUYANA"]
+    },
+    {
+        "alpha2": "py",
+        "alpha3": "pry",
+        "names": ["PARAGUAY"]
+    },
+    {
+        "alpha2": "pe",
+        "alpha3": "per",
+        "names": ["PERU"]
+    },
+    {
+        "alpha2": "sr",
+        "alpha3": "sur",
+        "names": ["SURINAME"]
+    },
+    {
+        "alpha2": "uy",
+        "alpha3": "ury",
+        "names": ["URUGUAY"]
+    },
+    {
+        "alpha2": "ve",
+        "alpha3": "ven",
+        "names": ["VENEZUELA"]
+    }
+]

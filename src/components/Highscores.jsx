@@ -1,20 +1,69 @@
+import { useState } from "react"
+
 import { FaStar } from 'react-icons/fa'
 import { FaClock } from 'react-icons/fa'
 
-import countries from '../assets/countries.json'
-
-const countriesAmount = countries.length
+var scoreName = "world_scores"
 
 export default function Highscores() {
-    var scores = localStorage.getItem('scores') ? JSON.parse(localStorage.getItem('scores')) : []
+    const [scores, setScores] = useState( getScores() )
+
+    const handleSelectChange = (event) => {
+        switch (event.target.value) {
+            case "world":
+                scoreName = "world_scores"
+                setScores(getScores())
+                break
+            case "africa":
+                scoreName = "africa_scores"
+                setScores(getScores())
+                break
+            case "asia":
+                scoreName = "asia_scores"
+                setScores(getScores())
+                break
+            case "europe":
+                scoreName = "europe_scores"
+                setScores(getScores())
+                break
+            case "northAmerica":
+                scoreName = "northAmerica_scores"
+                setScores(getScores())
+                break
+            case "oceania":
+                scoreName = "oceania_scores"
+                setScores(getScores())
+                break
+            case "southAmerica":
+                scoreName = "southAmerica_scores"
+                setScores(getScores())
+                break
+            default:
+                scoreName = "world_scores"
+                setScores(getScores())
+        }
+    };
+
+    function getScores() {
+        return localStorage.getItem(scoreName) ? JSON.parse(localStorage.getItem(scoreName)) : []
+    }
 
     if (scores.length > 0) {
         return (
-            <div className="start--highscores">
-                <ol className="start--highscores-list">
+            <div className="highscores">
+                <select className="start-screen--dropdown" onChange={handleSelectChange}>
+                <option value="world">World</option>
+                <option value="africa">Africa</option>
+                <option value="asia">Asia</option>
+                <option value="europe">Europe</option>
+                <option value="northAmerica">North America</option>
+                <option value="oceania">Oceania</option>
+                <option value="southAmerica">South America</option>
+            </select>
+                <ol className="highscores--list">
                     {
                         scores.map(item => (
-                            <li key={item.date}><FaStar className="start--highscores-icon" />{item.score} / {countriesAmount} ({Math.round((100 / (countriesAmount)) * item.score)}%) <FaClock className="start--highscores-icon" /> {String(item.time.min).padStart(2, '0')}:{String(item.time.sec).padStart(2, '0')}</li>
+                            <li key={item.date}><FaStar className="highscores--list-icon" />{item.score} / {item.total} ({Math.round((100 / (item.total)) * item.score)}%) <FaClock className="highscores--list-icon" /> {String(item.time.min).padStart(2, '0')}:{String(item.time.sec).padStart(2, '0')}</li>
                         ))}
                 </ol>
             </div>
@@ -22,7 +71,16 @@ export default function Highscores() {
     }
 
     return (
-        <div className="start--highscores">
+        <div className="highscores">
+            <select className="start-screen--dropdown" onChange={handleSelectChange}>
+                <option value="world">World</option>
+                <option value="africa">Africa</option>
+                <option value="asia">Asia</option>
+                <option value="europe">Europe</option>
+                <option value="northAmerica">North America</option>
+                <option value="oceania">Oceania</option>
+                <option value="southAmerica">South America</option>
+            </select>
             <p>You best scores will be displayed here...</p>
         </div>)
 }

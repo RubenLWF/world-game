@@ -1,0 +1,117 @@
+[
+    {
+        "alpha2": "ag",
+        "alpha3": "atg",
+        "names": ["ANTIGUA AND BARBUDA"]
+    },
+    {
+        "alpha2": "bs",
+        "alpha3": "bhs",
+        "names": ["BAHAMAS", "THE BAHAMAS"]
+    },
+    {
+        "alpha2": "bb",
+        "alpha3": "brb",
+        "names": ["BARBADOS"]
+    },
+    {
+        "alpha2": "bz",
+        "alpha3": "blz",
+        "names": ["BELIZE"]
+    },
+    {
+        "alpha2": "ca",
+        "alpha3": "can",
+        "names": ["CANADA"]
+    },
+    {
+        "alpha2": "cr",
+        "alpha3": "cri",
+        "names": ["COSTA RICA"]
+    },
+    {
+        "alpha2": "cu",
+        "alpha3": "cub",
+        "names": ["CUBA"]
+    },
+    {
+        "alpha2": "dm",
+        "alpha3": "dma",
+        "names": ["DOMINICA"]
+    },
+    {
+        "alpha2": "do",
+        "alpha3": "dom",
+        "names": ["DOMINICAN REPUBLIC"]
+    },
+    {
+        "alpha2": "sv",
+        "alpha3": "slv",
+        "names": ["EL SALVADOR"]
+    },
+    {
+        "alpha2": "gd",
+        "alpha3": "grd",
+        "names": ["GRENADA"]
+    },
+    {
+        "alpha2": "gt",
+        "alpha3": "gtm",
+        "names": ["GUATEMALA"]
+    },
+    {
+        "alpha2": "ht",
+        "alpha3": "hti",
+        "names": ["HAITI"]
+    },
+    {
+        "alpha2": "hn",
+        "alpha3": "hnd",
+        "names": ["HONDURAS"]
+    },
+    {
+        "alpha2": "jm",
+        "alpha3": "jam",
+        "names": ["JAMAICA"]
+    },
+    {
+        "alpha2": "mx",
+        "alpha3": "mex",
+        "names": ["MEXICO"]
+    },
+    {
+        "alpha2": "ni",
+        "alpha3": "nic",
+        "names": ["NICARAGUA"]
+    },
+    {
+        "alpha2": "pa",
+        "alpha3": "pan",
+        "names": ["PANAMA"]
+    },
+    {
+        "alpha2": "kn",
+        "alpha3": "kna",
+        "names": ["SAINT KITTS AND NEVIS", "ST KITTS AND NEVIS", "ST. KITTS AND NEVIS"]
+    },
+    {
+        "alpha2": "lc",
+        "alpha3": "lca",
+        "names": ["SAINT LUCIA", "ST LUCIA", "ST. LUCIA"]
+    },
+    {
+        "alpha2": "vc",
+        "alpha3": "vct",
+        "names": ["SAINT VINCENT AND THE GRENADINES", "ST VINCENT AND THE GRENADINES", "ST. VINCENT AND THE GRENADINES"]
+    },
+    {
+        "alpha2": "tt",
+        "alpha3": "tto",
+        "names": ["TRINIDAD AND TOBAGO"]
+    },
+    {
+        "alpha2": "us",
+        "alpha3": "usa",
+        "names": ["UNITED STATES OF AMERICA", "UNITED STATES", "USA"]
+    }
+]
