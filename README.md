@@ -12,6 +12,7 @@ The game is heavily reliant on the [react-country-flag](https://www.npmjs.com/pa
 
 ### Gamemodes
 ![Gamemodes screen](/images/gamemodes.PNG)
+
 The player can switch between gamemodes by pressing the currently selected gamemode.
 There are several different gamemodes based on the different continents. The gamemodes are:
 - World
@@ -24,6 +25,7 @@ There are several different gamemodes based on the different continents. The gam
 
 ### Highscores
 ![Highscores screen](/images/highscores.PNG)
+
 The game keeps track of a players highscores in the browsers local storage. The best 10 scores are saved and rendered for the player. The scores are ranked on score. If two scores have the same score, the time is considered.
 
 ## Running locally
