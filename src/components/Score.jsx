@@ -1,6 +1,9 @@
+// Import icon
 import { FaStar } from 'react-icons/fa'
 
 export default function Score({ flagIndex, score }) {
+
+    // If not at the first flag
     if (flagIndex > 0) {
         return (
             <div className="game--score">

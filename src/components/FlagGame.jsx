@@ -1,14 +1,17 @@
+// Import React hooks
 import { useState, useRef, useEffect } from "react"
 
+// Import icons
 import { FaArrowRight } from 'react-icons/fa'
 
-import world from '../assets/countries.json'
+// Import components
 import Start from "./Start"
 import Flag from "./Flag"
 import Timer from "./Timer"
 import Score from "./Score"
 import Highscores from "./Highscores"
 
+// Global variables
 var flagIndex = 0
 var score = 0
 var started = false
@@ -16,7 +19,7 @@ var firstGame = true
 var oldTime = null
 var oldScore = 0
 var gameType = "world"
-var countries = world
+var countries = [{ alpha2: "nl", names: ["THE NETHERLANDS"] }]
 
 export default function FlagGame() {
 
@@ -27,10 +30,14 @@ export default function FlagGame() {
     useEffect(() => {
         // Listen for startGame event
         window.addEventListener("startGame", event => {
-            // Set started to true and move to first flag
+            // Get data from event details
             gameType = event.detail.name
             countries = event.detail.list
+
+            // Shuffle countries
             shuffle(countries)
+
+            // Set started to true and move to first flag
             started = true
             nextFlag(true)
         })
@@ -39,32 +46,38 @@ export default function FlagGame() {
     useEffect(() => {
         // Save score to local storage
         if (gameTime != null) {
+            // Get name of local storage item
             const scoreName = gameType + '_scores'
+
+            // Get scores from local storage
             var scores = localStorage.getItem(scoreName) ? JSON.parse(localStorage.getItem(scoreName)) : []
 
+            // Add new score to list
             scores.push({ score: score, total: countries.length, time: gameTime, date: new Date() })
 
+            // Sort scores by score and time
             scores.sort((a, b) => b.score - a.score || (a.time.sec + a.time.min * 60 + a.time.hr * 60 * 60) - (b.time.sec + b.time.min * 60 + b.time.hr * 60 * 60))
 
+            // Keep only top 10 scores
             if (scores.length > 10) {
                 scores.pop()
             }
 
+            // Save scores to local storage
+            localStorage.setItem(scoreName, JSON.stringify(scores))
+
+            // Save old score and time
             oldTime = gameTime
             oldScore = score
+
+            // Reset score and time
             setGameTime(null)
             score = 0
-
-            localStorage.setItem(scoreName, JSON.stringify(scores))
         }
     }, [gameTime]);
 
-    // Get time from timer component
-    function getTime(time) {
-        setGameTime(time)
-    }
-
     function nextFlag(first = false) {
+        // Increase flag index if not first flag
         if (!first) flagIndex += 1
 
         // If at last flag
@@ -72,16 +85,10 @@ export default function FlagGame() {
             // Send event to stop timer
             window.dispatchEvent(new Event("stopTimer"))
 
-            // Re-shuffle countries
-            shuffle(countries)
-
             // Reset game
             flagIndex = 0
             started = false
             firstGame = false
-
-            // Set flag to first in list
-            setCountry({ alpha2: countries[flagIndex].alpha2, names: countries[flagIndex].names })
 
             return
         }
@@ -91,6 +98,7 @@ export default function FlagGame() {
     }
 
     function checkAnswer() {
+        // Get input value
         var answer = inputRef.current.value
 
         // If input country is equal to one of the allowed country names
@@ -119,7 +127,7 @@ export default function FlagGame() {
                 </div>
                 <div className="game--stats">
                     <Score flagIndex={flagIndex} score={score} />
-                    <Timer sendTime={getTime} />
+                    <Timer sendTime={setGameTime} />
                 </div>
             </div >
             <Highscores />

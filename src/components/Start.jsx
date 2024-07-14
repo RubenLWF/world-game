@@ -1,9 +1,13 @@
+// Import image
 import icon from "../assets/earth-icon.svg"
 
+// Import icon
 import { FaArrowRight } from 'react-icons/fa'
 
+// Import component
 import Highscores from "./Highscores"
 
+// Import data
 import world from '../assets/countries.json'
 import africa from '../assets/africa.json'
 import asia from '../assets/asia.json'
@@ -12,39 +16,28 @@ import northAmerica from '../assets/north-america.json'
 import oceania from '../assets/oceania.json'
 import southAmerica from '../assets/south-america.json'
 
+// Create dictionary with game types
+const gameTypeDict = { "world": world, "africa": africa, "asia": asia, "europe": europe, "northAmerica": northAmerica, "oceania": oceania, "southAmerica": southAmerica }
+
+// Global variable
 var sendEvent = new CustomEvent("startGame", { detail: { name: "world", list: world } })
 
-export default function Start( { firstGame, previousGame}) {
+export default function Start({ firstGame, previousGame }) {
+
+    function createDetails(name) {
+        // Create details object
+        return { name: name, list: gameTypeDict[name] }
+    }
+
+    // On select change
     const handleSelectChange = (event) => {
-        switch (event.target.value) {
-            case "world":
-                sendEvent = new CustomEvent("startGame", { detail: { name: "world", list: world } })
-                break
-            case "africa":
-                sendEvent = new CustomEvent("startGame", { detail: { name: "africa", list: africa } })
-                break
-            case "asia":
-                sendEvent = new CustomEvent("startGame", { detail: { name: "asia", list: asia } })
-                break
-            case "europe":
-                sendEvent = new CustomEvent("startGame", { detail: { name: "europe", list: europe } })
-                break
-            case "northAmerica":
-                sendEvent = new CustomEvent("startGame", { detail: { name: "northAmerica", list: northAmerica } })
-                break
-            case "oceania":
-                sendEvent = new CustomEvent("startGame", { detail: { name: "oceania", list: oceania } })
-                break
-            case "southAmerica":
-                sendEvent = new CustomEvent("startGame", { detail: { name: "southAmerica", list: southAmerica } })
-                break
-            default:
-                sendEvent = new CustomEvent("startGame", { detail: { name: "world", list: world } })
-        }
+        // Update global variable with selected game type
+        sendEvent = new CustomEvent("startGame", { detail: createDetails(event.target.value) })
     };
 
     var titleText = "How well do you know country flags?"
 
+    // If it's not the first game and the previous game time is valid
     if (!firstGame && previousGame.time != null) {
         titleText = "You just scored " + previousGame.score + "/" + previousGame.listSize + " in " + String(previousGame.time.min).padStart(2, '0') + ":" + String(previousGame.time.sec).padStart(2, '0')
     }

@@ -1,7 +1,10 @@
+// Import React hooks
 import { useState, useEffect } from "react"
 
+// Import icon
 import { FaClock } from 'react-icons/fa'
 
+// Global variable
 var returnTime = {
     sec: 0,
     min: 0,
@@ -9,6 +12,8 @@ var returnTime = {
 }
 
 export default function Timer({ sendTime }) {
+
+    const [intervalId, setIntervalId] = useState()
     const [time, setTime] = useState({
         sec: 0,
         min: 0,
@@ -16,13 +21,13 @@ export default function Timer({ sendTime }) {
     })
 
     useEffect(() => {
+        // Listen for stop timer event
         window.addEventListener("stopTimer", event => {
+            // Send time to parent component
             sendTime(returnTime)
             stopTimer()
         }, { once: true })
     }, [])
-
-    const [intervalId, setIntervalId] = useState()
 
     const updateTimer = () => {
         setTime((prev) => {
