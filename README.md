@@ -1,16 +1,17 @@
 # Flag game
-![Game start screen](./images/start.png)
+![Game start screen](./images/start.PNG)
 ## Introduction
-This project is a very simple game about country flags.
+This project is a very simple game about country flags, the player gets shown a flag and has to type in the corresponding country name.
 
-The player gets shown a flag and has to type in the corresponding country name.
+I started this project because I wanted to learn all the countries flags and get familiar with React.
 
-This project has been my first experience with React and has helped me get a rough understanding of the React library.
+This project has been my first experience with React and has helped me get a rough understanding of the React library. (I also know all the country flags now!)
 
 ## About the game
 The game is heavily reliant on the [react-country-flag](https://www.npmjs.com/package/react-country-flag) component, which is used to render the flags on the page. It also uses [react-icons](https://www.npmjs.com/package/react-icons) to render some icons.
 
 ### Gamemodes
+![Gamemodes screen](/images/gamemodes.PNG)
 The player can switch between gamemodes by pressing the currently selected gamemode.
 There are several different gamemodes based on the different continents. The gamemodes are:
 - World
