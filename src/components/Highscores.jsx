@@ -43,6 +43,7 @@ export default function Highscores() {
         return (
             <div className="highscores">
                 <Select />
+                <h3 className="highscores--title">Highscores:</h3>
                 <ol className="highscores--list">
                     {
                         // Loop through scores and display them
