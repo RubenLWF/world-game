@@ -1,4 +1,5 @@
 # Flag game
+![Game start screen](./images/start.png)
 ## Introduction
 This project is a very simple game about country flags.
 
@@ -9,6 +10,7 @@ This project has been my first experience with React and has helped me get a rou
 ## About the game
 The game is heavily reliant on the [react-country-flag](https://www.npmjs.com/package/react-country-flag) component, which is used to render the flags on the page. It also uses [react-icons](https://www.npmjs.com/package/react-icons) to render some icons.
 
+### Gamemodes
 The player can switch between gamemodes by pressing the currently selected gamemode.
 There are several different gamemodes based on the different continents. The gamemodes are:
 - World
@@ -19,6 +21,8 @@ There are several different gamemodes based on the different continents. The gam
 - Oceania
 - South America
 
+### Highscores
+![Highscores screen](/images/highscores.PNG)
 The game keeps track of a players highscores in the browsers local storage. The best 10 scores are saved and rendered for the player. The scores are ranked on score. If two scores have the same score, the time is considered.
 
 ## Running locally
